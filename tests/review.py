@@ -109,6 +109,30 @@ def check_flashcard_names(browser, base):
     context.close()
 
 
+def check_known_word_identity(browser, base):
+    context = browser.new_context()
+    page = context.new_page()
+    words = [
+        {"chinese": "只", "pinyin": "zhǐ", "english": "only"},
+        {"chinese": "只", "pinyin": "zhī", "english": "measure word"},
+        {"chinese": "只", "pinyin": "zhǐ", "english": "just"},
+    ]
+    page.route("**/chinese/list-1.json", lambda route: route.fulfill(
+        json={"categories": [{"name": "Homographs", "words": words}]}))
+    page.goto(base + "/chinese/words.html#flashcards")
+    page.get_by_role("button", name="Mark as known", exact=True).click()
+    for _ in range(2):
+        page.get_by_role("button", name="Next →", exact=True).click()
+        page.get_by_role("button", name="Mark as known", exact=True).wait_for()
+    page.get_by_role("button", name="Next →", exact=True).click()
+    page.get_by_role("button", name="✓ Known — undo", exact=True).wait_for()
+    page.reload()
+    page.get_by_role("button", name="✓ Known — undo", exact=True).wait_for()
+    page.get_by_role("button", name="Next →", exact=True).click()
+    page.get_by_role("button", name="Mark as known", exact=True).wait_for()
+    context.close()
+
+
 def run_review(browser, base):
     for name, check in sorted(globals().items()):
         if name.startswith("check_"):
