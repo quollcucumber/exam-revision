@@ -84,9 +84,9 @@ and clamped to each question's maximum in the self-mark total.
 ## Progress and privacy
 
 Known cards, best vocabulary quiz percentages (per list/category/direction),
-and subject exam self-marks are stored only in this browser's localStorage.
+and subject exam self-marks and written answers are stored only in this browser's localStorage.
 Clearing site data resets progress. If storage is unavailable, study still works
-but progress will not persist. Typed exam responses and timer state are not saved.
+but progress will not persist. Timer state is not saved.
 
 ## Original revision guide
 
