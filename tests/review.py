@@ -133,6 +133,28 @@ def check_known_word_identity(browser, base):
     context.close()
 
 
+def check_shuffle(browser, base):
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto(base + "/")
+    assert page.evaluate("""async () => {
+      const {shuffled} = await import('/assets/common.js');
+      const random = Math.random;
+      try {
+        const input = [1, 2, 3, 4];
+        const draws = [0, 0.5, 0.999999];
+        Math.random = () => draws.shift();
+        const result = shuffled(input);
+        if (JSON.stringify(result) !== '[4,3,2,1]' ||
+            JSON.stringify(input) !== '[1,2,3,4]' || result === input ||
+            draws.length !== 0) return false;
+        return shuffled([]).length === 0 &&
+          JSON.stringify(shuffled([1])) === '[1]';
+      } finally { Math.random = random; }
+    }""")
+    context.close()
+
+
 def run_review(browser, base):
     for name, check in sorted(globals().items()):
         if name.startswith("check_"):
