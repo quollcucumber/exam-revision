@@ -34,9 +34,11 @@ in soil containing salt”, for the missing photo. No graph values are invented.
 
 - The study guide names nine biomes, while L1 names ten using different groupings.
   Both are labelled; the exam checklist follows the study guide.
-- Full latitude bands and a complete climate/vegetation/animal table for all nine
-  biomes are absent from the extracted lesson text. Only recoverable details are
-  included, not an invented biome table.
+- A complete climate/vegetation/animal table for all nine biomes is absent from the
+  extracted lesson text; only recoverable details are included. Biome latitudes are
+  read from the slide images supplied separately (L2 Climate slide 5 ‘Climate Zones’
+  map; L1 Biomes slides 3–5 ‘Major biomes of the world’ map and key, slide 8
+  rainforest distribution map), not from the text extraction.
 - PQE headings are supplied; a full worked unseen-map answer is not.
 - The palm-oil slide explicitly labels two pros. A third useful benefit is its
   supplied use in food/cosmetics/biofuel; this distinction is explained.
@@ -99,7 +101,7 @@ in soil containing salt”, for the missing photo. No graph values are invented.
 - **Exam checklist — Thursday 26 November, 8:30am** — Year 9 Exam Study Guide.docx.txt
 - **Define a biome** — L1 Biomes.pptx.txt
 - **The nine biomes to learn** — Year 9 Exam Study Guide.docx.txt; L1 Biomes.pptx.txt
-- **Latitudes and geographical language** — L4 Aus Biomes.pptx.txt; L4(2).pptx.txt; L13 Salinity.pptx.txt
+- **Where biomes are: latitude, tropics, sub-tropics, temperate** — L2 Climate slide 5 image (Climate Zones map); L1 Biomes slide 3–5 and 8 images (biome maps); L4 Aus Biomes.pptx.txt; L4(2).pptx.txt; L13 Salinity.pptx.txt
 - **Climate, vegetation and animals of biomes** — L1 Biomes.pptx.txt; L4 Aus Biomes.pptx.txt; L2 Climate.pptx.txt
 - **Why grasslands matter to humans** — L4 Aus Biomes.pptx.txt; L11 Intensive v Extensive.pptx.txt
 - **Human damage to grasslands and environmental problems** — L4 Aus Biomes.pptx.txt; L13 Salinity.pptx.txt; L 3 Soil.pptx.txt

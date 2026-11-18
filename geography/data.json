@@ -20,9 +20,8 @@
     },
     {
       "heading": "Where biomes are: latitude, tropics, sub-tropics, temperate",
-      "body": "What the study guide asks\n- Know their latitudes.\n- Using geographic language: latitude, tropics, sub-tropics, temperate describe where the world’s biomes are located.\n\nLines from the world maps (the 9 Food Security textbook maps)\n- Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn (north to south).\n\nWhat your lessons say about where each biome is\n- Tropical forests (palm oil case study): found mainly in tropical regions close to the equator.\n- Grasslands / savanna: can be found in temperate, subtropical and tropical regions.\n- Biodiversity: as you move away from the equator, biodiversity decreases. Tropical Rainforests have the greatest biodiversity in the world.\n- Tundra: very low biodiversity.\n- Boreal forest example: Finland Boreal Forest.\n- Temperate rainforest example: Dandenong Ranges National Park, Victoria (cool temperate rainforest).\n- Seagrass meadows (aquatic): ½ of the known 60 species are found in Australia’s tropical and temperate waters.\n\nAustralia’s biomes\n- Map legend: Equatorial, Tropical, Sub Tropical, Desert, Grassland, Temperate.\n- Tropical northern Australia: wetlands inhabited by First Nation Peoples for longer than 50,000 years.\n- In the centre: a desert that is only 2nd to the Sahara (excluding Antarctica).\n- In the South: temperate forests and grasslands dominate.\n\nUsing latitude in a description\n- Satellite image of the Nile: 26° N latitude, 30° E longitude (well within the sub-tropics).",
-      "source": "Year 9 Exam Study Guide.docx.txt; 9 Food Security PDF.txt; L4(2).pptx.txt; L4 Aus Biomes.pptx.txt; L1 Biomes.pptx.txt; L13 Salinity.pptx.txt",
-      "caution": "Your school files don't give the exact latitude (in degrees) of each biome or of the tropics lines: the ‘Climate Zones’ slide (L2 Climate) and the biome maps are pictures, so their text didn't come through. Check those slides or your class notes for the degree bands; the site doesn't guess them."
+      "body": "Climate zones by latitude (L2 Climate, ‘Climate Zones’ map)\n- Tropical zone: Equator (0°) to 30° N and 0° to 30° S.\n- Temperate zone: 30° to 60° N and 30° to 60° S.\n- Polar zone: beyond 60° N and 60° S.\n\nWhere each biome sits (L1 Biomes, ‘Major biomes of the world’ map)\n- Tropical rainforest: either side of the Equator, between the Tropic of Cancer and the Tropic of Capricorn (Amazon, Central Africa, South-East Asia). Tropical zone, 0°–30°.\n- Savanna / tropical grassland: in the tropics, north and south of the rainforests (Africa, northern Australia, Brazil). Tropical zone, 0°–30°.\n- Desert: around the Tropic of Cancer and the Tropic of Capricorn, close to 30° N and S (Sahara, Arabia, central Australia). Sub-tropics.\n- Grassland: inland in the temperate zone, 30°–60° (central Asia, North American prairies, Argentina).\n- Temperate rainforest: on coasts in the temperate zone, 30°–60° (west coast of North America, Chile, Victoria and Tasmania, New Zealand, Norway).\n- Taiga (boreal forest): a wide belt across Canada, Scandinavia and Russia around 60° N, just south of the Arctic Circle. Northern Hemisphere only (example: Finland).\n- Tundra: around and north of the Arctic Circle. Polar zone, beyond 60° N.\n- Ice: Greenland and Antarctica. Polar zone, beyond 60°.\n- Marine and freshwater: oceans, lakes and rivers at every latitude.\n\nLines on the maps, north to south\n- Arctic Circle, Tropic of Cancer, Equator (0°), Tropic of Capricorn, Antarctic Circle.\n\nWhat your lessons say\n- As you move away from the equator, biodiversity decreases. Tropical Rainforests have the greatest biodiversity in the world.\n- Tropical forests (palm oil case study): found mainly in tropical regions close to the equator.\n- Grasslands / savanna: can be found in temperate, subtropical and tropical regions.\n- Australia: tropical in the north (wetlands), desert in the centre, temperate forests and grasslands in the south.\n\nUsing latitude in a description\n- Satellite image of the Nile: 26° N latitude, 30° E longitude (well within the sub-tropics).\n- Example sentence: Tropical rainforests are located between the Tropic of Cancer and the Tropic of Capricorn, close to the Equator, within 30° N and S.",
+      "source": "L2 Climate (Climate Zones slide image); L1 Biomes (Major biomes of the world map, slides 3–5; rainforest distribution map, slide 8); Year 9 Exam Study Guide.docx.txt; L4(2).pptx.txt; L4 Aus Biomes.pptx.txt; L13 Salinity.pptx.txt"
     },
     {
       "heading": "Climate, vegetation and animals of biomes",
@@ -149,9 +148,39 @@
     },
     {
       "id": "geo-lat-6",
-      "term": "The main lines of latitude on the world maps, north to south",
-      "definition": "Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn.",
-      "source": "9 Food Security PDF.txt"
+      "term": "The lines of latitude on the world biome map, north to south",
+      "definition": "Arctic Circle, Tropic of Cancer, Equator (0°), Tropic of Capricorn, Antarctic Circle.",
+      "source": "L1 Biomes (Major biomes of the world map)"
+    },
+    {
+      "id": "geo-lat-8",
+      "term": "Latitude bands of the three climate zones",
+      "definition": "Tropical: 0°–30° N and S. Temperate: 30°–60° N and S. Polar: beyond 60° N and S.",
+      "source": "L2 Climate (Climate Zones map)"
+    },
+    {
+      "id": "geo-lat-9",
+      "term": "Latitude of tropical rainforest and savanna",
+      "definition": "Tropical zone, 0°–30°: between the Tropic of Cancer and the Tropic of Capricorn, either side of the Equator.",
+      "source": "L1 Biomes (Major biomes of the world map)"
+    },
+    {
+      "id": "geo-lat-10",
+      "term": "Latitude of the big hot deserts (Sahara, central Australia)",
+      "definition": "Around the Tropics of Cancer and Capricorn, close to 30° N and S (the sub-tropics).",
+      "source": "L1 Biomes map; L2 Climate Zones map"
+    },
+    {
+      "id": "geo-lat-11",
+      "term": "Latitude of grassland and temperate rainforest",
+      "definition": "Temperate zone, 30°–60° N and S. Grassland is inland and temperate rainforest is on coasts.",
+      "source": "L1 Biomes maps; L2 Climate Zones map"
+    },
+    {
+      "id": "geo-lat-12",
+      "term": "Latitude of taiga, tundra and ice",
+      "definition": "Taiga: around 60° N, just south of the Arctic Circle (Northern Hemisphere only). Tundra: around and north of the Arctic Circle (polar). Ice: Greenland and Antarctica (polar, beyond 60°).",
+      "source": "L1 Biomes map; L2 Climate Zones map"
     },
     {
       "id": "geo-2",
