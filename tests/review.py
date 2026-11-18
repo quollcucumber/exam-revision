@@ -155,6 +155,34 @@ def check_shuffle(browser, base):
     context.close()
 
 
+def check_timer_deadline(browser, base):
+    context = browser.new_context()
+    page = context.new_page()
+    page.clock.install(time=1700000000000)
+    page.goto(base + "/geography/#practice")
+    page.get_by_role("button", name="Start timer", exact=True).click()
+    timer = page.locator("#practice > div > .status").first
+    assert timer.inner_text() == "Time remaining: 50:00"
+    page.clock.fast_forward(125000)
+    assert timer.inner_text() == "Time remaining: 47:55"
+    page.locator(".essay-picker").select_option("1")
+    page.clock.fast_forward(1000)
+    assert timer.inner_text() == "Time remaining: 47:54"
+    page.get_by_role("button", name="Pause timer", exact=True).click()
+    page.clock.fast_forward(600000)
+    assert timer.inner_text() == "Time remaining: 47:54"
+    page.get_by_role("button", name="Resume timer", exact=True).click()
+    page.clock.fast_forward(2868000)
+    assert timer.inner_text() == "Time remaining: 0:06"
+    page.clock.fast_forward(60000)
+    assert timer.inner_text() == "Time is up. Finish your current thought, then self-mark."
+    assert page.get_by_role("button", name="Pause timer", exact=True).is_disabled()
+    page.select_option("#exam-picker", "1")
+    page.get_by_role("button", name="Start timer", exact=True).wait_for()
+    assert timer.inner_text() == "Optional timer: 50 minutes"
+    context.close()
+
+
 def run_review(browser, base):
     for name, check in sorted(globals().items()):
         if name.startswith("check_"):
