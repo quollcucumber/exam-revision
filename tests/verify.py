@@ -121,7 +121,7 @@ with sync_playwright() as p:
     first = page.locator(".card").inner_text()
     page.locator(".card").click()
     assert first != page.locator(".card").inner_text()
-    assert "Speaker as labelled" in page.locator(".card").inner_text()
+    assert page.locator(".card").inner_text() == subjects["english"]["flashcards"][0]["definition"]
     page.get_by_role("button", name="Mark as known", exact=True).click()
     page.reload()
     page.get_by_role("button", name="✓ Known — undo", exact=True).wait_for()

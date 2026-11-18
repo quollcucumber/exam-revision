@@ -51,10 +51,11 @@ in soil containing salt”, for the missing photo. No graph values are invented.
 - Chinese Unit 1 includes the complete supplied vocabulary, sentences, writing
   prompts and oral questions as notes. No missing pinyin, translations or model
   responses were invented. Existing word lists remain unchanged.
-- English quotations and commentary remain the student's sheet, not independently
-  verified analysis. Speaker flashcards use only explicit labels. Unlabelled later
-  quotations remain in the notes. The history/smallpox essay plan is clearly
-  labelled a draft argument requiring evidence, not established fact.
+- English quotations and commentary reproduce the student's sheet word for word,
+  not independently verified analysis. All entries appear in by-character notes
+  and quote-to-comment flashcards; unlabelled entries are not assigned speakers.
+  Antigone and ad-analysis writing tasks reveal source banks, not model paragraphs.
+  Practice timing and self-mark rubrics are author-assigned instructions.
 - `year9mathbook.pdf` is actually a saved MyConnect HTML viewer. It contains the
   textbook contents, not readable worked examples/exercises/answers. Its actual
   topic checklist is included, but no textbook exercise was invented.
@@ -88,9 +89,8 @@ in soil containing salt”, for the missing photo. No graph values are invented.
 
 ### english
 
-- **Antigone — Your quote sheet** — Antigone Quotes.pdf
-- **Your essay plans — Pepsi advertisement** — english.odt.txt
-- **Your essay plans — History paragraph planning** — english essay.odt.txt
+- **Antigone quotes by character** — Antigone Quotes.pdf
+- **Pepsi ad analysis plan — writing scaffold** — english.odt.txt
 
 ### maths
 
