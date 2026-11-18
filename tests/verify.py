@@ -10,6 +10,7 @@ import shutil
 import urllib.request
 
 from playwright.sync_api import sync_playwright
+from review import run_review
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get("REVISION_URL", "http://localhost:8080")
@@ -153,19 +154,16 @@ with sync_playwright() as p:
     print("PASS: empty and fetch-error states")
 
     studio_context = browser.new_context(viewport={"width": 1280, "height": 1100})
-    studio_context.add_init_script("""
-        const sort = Array.prototype.sort;
-        Array.prototype.sort = function(compare) {
-            if (this.length && this[0]?.chinese) {
-                return sort.call(this, (a, b) =>
-                    (a.chinese === '是' ? 0 : 1) - (b.chinese === '是' ? 0 : 1));
-            }
-            return sort.call(this, compare);
-        };
+    list1 = json.loads((ROOT / "chinese/list-1.json").read_text())
+    words1 = [w for c in list1["categories"] for w in c["words"]]
+    first_shi = next(i for i, w in enumerate(words1) if w["chinese"] == "是")
+    studio_context.add_init_script(f"""
+        let remaining = {len(words1)};
+        Math.random = () => --remaining === {first_shi} ? 0 : 0.999999;
     """)
     studio = studio_context.new_page()
     studio.goto(BASE + "/chinese/")
-    studio.evaluate("localStorage.setItem('chinese-known', JSON.stringify(['我', '只', '是', '爷爷']))")
+    studio.evaluate("localStorage.setItem('chinese-known', JSON.stringify(['我', '只', '是', '爷爷', JSON.stringify(['你', 'nǐ'])]))")
     studio.goto(BASE + "/chinese/words.html#quiz")
     studio.locator(".choices").wait_for()
     assert studio.locator("#study .hanzi").inner_text() == "是"
@@ -176,7 +174,9 @@ with sync_playwright() as p:
     assert studio.inner_text(".status") == "Correct. Nice work!"
     assert all(b.is_disabled() for b in studio.locator(".choices button").all())
     migrated = studio.evaluate("JSON.parse(localStorage.getItem('chinese-known'))")
-    assert json.dumps(["我", "wǒ"], ensure_ascii=False, separators=(",", ":")) in migrated
+    assert json.dumps(["我", "wǒ", "I, me"], ensure_ascii=False, separators=(",", ":")) in migrated
+    assert json.dumps(["你", "nǐ", "you"], ensure_ascii=False, separators=(",", ":")) in migrated
+    assert json.dumps(["你", "nǐ"], ensure_ascii=False, separators=(",", ":")) not in migrated
     assert "我" not in migrated and "只" not in migrated and "是" not in migrated
     assert "爷爷" in migrated
     print("PASS: Chinese quiz excludes alternate valid answers; unique legacy progress migrates")
@@ -304,4 +304,5 @@ with sync_playwright() as p:
     print("PASS: 390px screenshots, no horizontal overflow")
     print(SHOTS / "geography-practice-390.png")
     print(SHOTS / "maths-hub-390.png")
+    run_review(browser, BASE)
     browser.close()
