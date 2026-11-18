@@ -132,6 +132,27 @@ with sync_playwright() as p:
     print("PASS: English source flashcards/persistence and Chinese Unit 1 notes")
 
     page.goto(BASE + "/maths/")
+    page.locator("#exam-picker").wait_for()
+    for i, exam in enumerate(subjects["maths"]["exams"][:3]):
+        assert exam["id"] == f"tech-active-{i + 1}"
+        assert [sum(q["marks"] for q in s["questions"])
+                for s in exam["sections"]] == [20, 15, 25]
+        assert len(exam["sections"][1]["questions"]) == 15
+        assert exam["durationMinutes"] == 70
+        page.select_option("#exam-picker", str(i))
+        assert page.locator("#practice .question").count() == 35
+        assert "Self-mark total: 0 / 60" in page.inner_text("#practice")
+        assert "Could not load" not in page.inner_text("body")
+        question = exam["sections"][1]["questions"][0]
+        page.locator("#practice .choices").first.get_by_role(
+            "button", name=question["options"][question["answer"]], exact=True).click()
+        assert "Correct." in page.locator("#practice .choices").first.locator("..").inner_text()
+        page.locator("#practice details").first.locator("summary").click()
+        assert "Final answer:" in page.locator("#practice details").first.inner_text()
+    print("PASS: three 60-mark tech-active papers, 105 rendered questions, MC feedback and worked solutions")
+    gauss_index = next(i for i, exam in enumerate(subjects["maths"]["exams"])
+                       if exam["id"] == "gauss-examples")
+    page.select_option("#exam-picker", str(gauss_index))
     page.locator("#practice details").first.locator("summary").click()
     assert "298" in page.locator("#practice details").first.inner_text()
     page.locator(".note").nth(1).locator("summary").click()

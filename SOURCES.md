@@ -60,8 +60,25 @@ in soil containing salt”, for the missing photo. No graph values are invented.
   textbook contents, not readable worked examples/exercises/answers. Its actual
   topic checklist is included with chapter headings, wrapped topics joined and
   non-topic boilerplate removed, but no textbook exercise was invented.
-- Maths Practice paper 1 contains selected Gauss worked examples; their worked
-  solutions also appear in the Notes. Practice paper 2 contains diagram-free Gauss
+- The three leading Maths tech-active papers are written practice modelled on
+  the six supplied past exams below (structure, topic mix and solution style),
+  not questions copied from school exams. Calculators are allowed in these new
+  papers. Each uses the 2024/2025 tech-active structure: 20 short-answer marks,
+  15 one-mark multiple-choice questions and 25 extended-response marks. The
+  70-minute time is author-assigned. All diagram information is supplied in words;
+  sketch/draw tasks are replaced by text-answerable calculations or descriptions.
+  The 2023 tech-active paper has a different short-answer allocation (23 marks);
+  its topics informed the mix, not the new papers' section totals. The three
+  Exam 1/Tech Free files are supporting topic references, not evidence that
+  calculators are allowed in those source exams:
+  - `2025 9Enr Sem 2 TechActive SOLUTIONS.docx`
+  - `9 ENR 2024 Exam 2 Sem 2 Solutions.docx`
+  - `9 ENR 2023 Exam 2 Sem 2 Solutions.docx`
+  - `2025 09 ENR Sem 2 Exam 1 - Solutions.docx`
+  - `(2024)09 ENR Sem 2 Exam 1 - Solutions.docx`
+  - `2023 Y9 Enr Sem 1 Tech Free Exam - Solutions.docx`
+- The optional Gauss worked-example paper contains selected worked examples; their worked
+  solutions also appear in the Notes. The optional exercises paper contains diagram-free Gauss
   exercises: Chapter 1 Exercises 1, 2, 4, 5, 6; Chapter 3 Exercises 1, 2, 5, 6;
   Chapter 5 Exercises 1(a–c), 2(a–b); Chapter 8 Exercises 1, 3, 4. Worked solutions
   come from printed pp.88–89, 97, 104, 122. Marks and time are author-assigned.
