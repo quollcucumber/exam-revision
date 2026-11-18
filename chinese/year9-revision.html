@@ -156,4 +156,4 @@ $('orNext').onclick=()=>{const p=$('orPool').value;if(p!==orPoolV||!orQ.length){
  clearInterval(orT);let s=60;$('orTimer').textContent='Answer out loud: '+s+'s';orT=setInterval(()=>{s--;$('orTimer').textContent=s>0?'Answer out loud: '+s+'s':'Time!';if(s<=0)clearInterval(orT)},1000)};
 $('orShow').onclick=()=>{if(!orCur)return;$('orA').classList.remove('hidden');say(orCur[2])};
 window.addEventListener('load',()=>setTimeout(()=>window.scrollTo(0,0),0));
-</script><footer style="padding:20px;text-align:center"><a href="https://app.devin.ai/sessions/fb256472ac1244b0b4cfd509e08ee824">Request changes</a></footer></body></html>
+</script></body></html>
