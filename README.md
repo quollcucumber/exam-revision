@@ -93,5 +93,5 @@ but progress will not persist. Timer state is not saved.
 
 ## Original revision guide
 
-`chinese/year9-revision.html` is the supplied file, unchanged except for a small
-home link inserted at the top and a request-changes footer. Its content and voice scripts are intact.
+`chinese/year9-revision.html` is the supplied file with the shared subject
+navigation and a request-changes footer. Its content and voice scripts are intact.
