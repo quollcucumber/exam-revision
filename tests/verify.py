@@ -152,6 +152,142 @@ with sync_playwright() as p:
     page.unroute("**/maths/data.json")
     print("PASS: empty and fetch-error states")
 
+    studio_context = browser.new_context(viewport={"width": 1280, "height": 1100})
+    studio_context.add_init_script("""
+        const sort = Array.prototype.sort;
+        Array.prototype.sort = function(compare) {
+            if (this.length && this[0]?.chinese) {
+                return sort.call(this, (a, b) =>
+                    (a.chinese === '是' ? 0 : 1) - (b.chinese === '是' ? 0 : 1));
+            }
+            return sort.call(this, compare);
+        };
+    """)
+    studio = studio_context.new_page()
+    studio.goto(BASE + "/chinese/")
+    studio.evaluate("localStorage.setItem('chinese-known', JSON.stringify(['我', '只', '是', '爷爷']))")
+    studio.goto(BASE + "/chinese/words.html#quiz")
+    studio.locator(".choices").wait_for()
+    assert studio.locator("#study .hanzi").inner_text() == "是"
+    options = studio.locator(".choices button").all_text_contents()
+    assert "yes / correct" in options and "to be" not in options
+    assert len(options) == len(set(options))
+    studio.get_by_role("button", name="yes / correct", exact=True).click()
+    assert studio.inner_text(".status") == "Correct. Nice work!"
+    assert all(b.is_disabled() for b in studio.locator(".choices button").all())
+    migrated = studio.evaluate("JSON.parse(localStorage.getItem('chinese-known'))")
+    assert json.dumps(["我", "wǒ"], ensure_ascii=False, separators=(",", ":")) in migrated
+    assert "我" not in migrated and "只" not in migrated and "是" not in migrated
+    assert "爷爷" in migrated
+    print("PASS: Chinese quiz excludes alternate valid answers; unique legacy progress migrates")
+
+    studio.get_by_role("button", name="Flashcards", exact=True).click()
+    studio.select_option("#category", "Adverbs & Function Words")
+    for _ in range(48):
+        if studio.locator(".card .hanzi").inner_text() == "只":
+            break
+        studio.get_by_role("button", name="Next →", exact=True).click()
+    assert studio.locator(".card .pinyin").inner_text() == "zhǐ"
+    studio.get_by_role("button", name="Mark as known", exact=True).click()
+    studio.select_option("#category", "Measure Words")
+    for _ in range(13):
+        if studio.locator(".card .hanzi").inner_text() == "只":
+            break
+        studio.get_by_role("button", name="Next →", exact=True).click()
+    assert studio.locator(".card .pinyin").inner_text() == "zhī"
+    assert studio.get_by_role("button", name="Mark as known", exact=True).count() == 1
+    studio.select_option("#list", "2")
+    studio.wait_for_function("document.querySelector('#summary').textContent.startsWith('672')")
+    studio.get_by_role("button", name="✓ Known — undo", exact=True).wait_for()
+    studio.select_option("#category", index=1)
+    category = studio.input_value("#category")
+    studio.reload()
+    studio.locator(".card").wait_for()
+    assert studio.input_value("#list") == "2" and studio.input_value("#category") == category
+    assert "Card 1 of 40" in studio.inner_text("#study")
+    print("PASS: Chinese homographs stay separate; second-list legacy progress and selection persist")
+
+    studio.locator("h1").click()
+    studio.keyboard.press("ArrowRight")
+    assert "Card 2 of 40" in studio.inner_text("#study")
+    studio.keyboard.press("Space")
+    assert "Answer · Tap to return" in studio.inner_text(".card")
+    studio.keyboard.press("ArrowLeft")
+    assert "Card 1 of 40" in studio.inner_text("#study")
+    assert "Answer ·" not in studio.inner_text(".card")
+    studio.locator("#category").focus()
+    studio.locator("#category").dispatch_event("keydown", {"key": "ArrowRight", "bubbles": True})
+    assert "Card 1 of 40" in studio.inner_text("#study")
+    studio.get_by_role("button", name="Table", exact=True).click()
+    studio.get_by_role("button", name="Flashcards", exact=True).click()
+    studio.go_back()
+    studio.locator("tbody").wait_for()
+    studio.go_forward()
+    studio.locator(".card").wait_for()
+    studio.evaluate("location.hash = 'table'")
+    studio.locator("tbody").wait_for()
+    for column, label in enumerate(("Chinese", "Pinyin", "English"), 1):
+        toggle = studio.get_by_label("Show " + label, exact=True)
+        toggle.uncheck()
+        assert studio.locator(f"tbody tr:first-child td:nth-child({column})").evaluate(
+            "cell => getComputedStyle(cell).visibility") == "hidden"
+        toggle.check()
+        assert studio.locator(f"tbody tr:first-child td:nth-child({column})").is_visible()
+    print("PASS: Chinese flashcard shortcuts, Back/Forward/hash navigation and three column toggles")
+
+    studio.route("**/chinese/list-1.json", lambda route: route.abort())
+    studio.select_option("#list", "1")
+    error = "Could not load this word list. Please refresh and try again."
+    studio.get_by_text(error, exact=True).wait_for()
+    for mode in ("Flashcards", "Quick quiz", "Table"):
+        studio.get_by_role("button", name=mode, exact=True).click()
+        assert studio.inner_text("#study") == error
+        assert studio.locator("tbody tr, .card, .choices").count() == 0
+    studio.unroute("**/chinese/list-1.json")
+    studio.route("**/chinese/list-1.json", lambda route: route.fulfill(json={"categories": []}))
+    studio.reload()
+    studio.get_by_text("No words in this selection.", exact=True).wait_for()
+    studio.get_by_role("button", name="Flashcards", exact=True).click()
+    studio.locator("h1").click()
+    studio.keyboard.press("ArrowRight")
+    studio.keyboard.press("Space")
+    assert studio.inner_text("#study") == "No words in this selection."
+    studio.unroute("**/chinese/list-1.json")
+    print("PASS: Chinese fetch failures clear stale data and survive mode changes; empty decks are safe")
+
+    list1 = json.loads((ROOT / "chinese/list-1.json").read_text())
+    original = list1["categories"][0]["words"][:3]
+    # A test-only shared gloss exercises reverse-direction ambiguity.
+    fixture = {"categories": [{"name": "Quiz test", "words": [
+        original[0], dict(original[1], english=original[0]["english"]), original[2]]}]}
+    studio.route("**/chinese/list-1.json", lambda route: route.fulfill(json=fixture))
+    studio.goto(BASE + "/chinese/")
+    studio.goto(BASE + "/chinese/words.html#quiz")
+    studio.locator(".choices").wait_for()
+    studio.select_option("#direction", "en")
+    options = studio.locator(".choices button").all_text_contents()
+    assert original[0]["chinese"] in options and original[1]["chinese"] not in options
+    assert len(options) == len(set(options))
+    studio.get_by_role("button", name=original[0]["chinese"], exact=True).click()
+    assert studio.inner_text(".status") == "Correct. Nice work!"
+    studio.unroute("**/chinese/list-1.json")
+    print("PASS: reverse Chinese quiz excludes entries sharing the English prompt")
+
+    studio.set_viewport_size({"width": 390, "height": 1100})
+    studio.goto(BASE + "/chinese/")
+    studio.goto(BASE + "/chinese/words.html#table")
+    studio.locator("tbody").wait_for()
+    assert studio.locator("tbody tr").count() == 478
+    assert studio.evaluate("document.documentElement.scrollWidth <= innerWidth")
+    studio.goto(BASE + "/chinese/year9-revision.html#vocab")
+    studio.locator("#vocab.on").wait_for()
+    assert studio.evaluate("document.documentElement.scrollWidth <= innerWidth")
+    assert studio.locator("#vocab .vocab-scroll > table.vocab").count() > 0
+    studio.locator("#vocab th").first.click()
+    assert "hidecol-1" in studio.locator("#vocab table").first.get_attribute("class")
+    studio_context.close()
+    print("PASS: Chinese studio and original vocabulary tables fit 390px; original column hiding works")
+
     # Fresh storage for screenshots, not the self-mark test state.
     page.close()
     context = browser.new_context(viewport={"width": 390, "height": 1100})
