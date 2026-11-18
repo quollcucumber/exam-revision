@@ -59,6 +59,36 @@ def check_quiz_distractors(browser, base):
     context.close()
 
 
+def check_failed_list(browser, base):
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto(base + "/chinese/words.html#quiz")
+    page.locator(".choices").wait_for()
+    pending = []
+    page.route("**/chinese/list-2.json", lambda route: pending.append(route))
+    page.select_option("#list", "2")
+    page.get_by_text("Loading vocabulary…", exact=True).wait_for()
+    page.get_by_role("tab", name="Quick quiz", exact=True).click()
+    assert page.locator(".choices button").count() == 0
+    assert page.locator("#study").inner_text() == "Loading vocabulary…"
+    pending.pop().abort()
+    page.get_by_text("Could not load this word list. Please refresh and try again.", exact=True).wait_for()
+    for tab in ("Table", "Flashcards", "Quick quiz"):
+        page.get_by_role("tab", name=tab, exact=True).click()
+        assert "Could not load" in page.locator("#study").inner_text()
+        assert page.locator("#study button").count() == 0
+    assert page.evaluate("Object.keys(localStorage).filter(k => k.startsWith('chinese-best-2-'))") == []
+    page.select_option("#list", "1")
+    page.locator(".choices").wait_for()
+    page.select_option("#list", "2")
+    page.get_by_text("Loading vocabulary…", exact=True).wait_for()
+    page.select_option("#list", "1")
+    page.locator(".choices").wait_for()
+    pending.pop().abort()
+    assert page.locator(".choices").is_visible()
+    context.close()
+
+
 def run_review(browser, base):
     for name, check in sorted(globals().items()):
         if name.startswith("check_"):
