@@ -1081,8 +1081,8 @@
             },
             {
               "type": "short-answer",
-              "prompt": "3(b) The model for a culture is N(t) = 720(1.25)ᵗ, where t is measured in hours. According to the continuous model, when will it first reach 3600 cells? Give the time to 2 decimal places.",
-              "modelAnswer": "Set 720(1.25)ᵗ = 3600 and divide by 720: 1.25ᵗ = 5. Taking logarithms, t log(1.25) = log 5, so t = log 5/log(1.25) = 7.212567… hours. Since 1.25 > 1, the model increases, so this is the first time the population reaches 3600.\nFinal answer: 7.21 hours",
+              "prompt": "3(b) The model for a culture is N(t) = 720(1.25)ᵗ, where t is measured in hours. Using calculator trials or a table of values, find the first whole number of hours after which the culture exceeds 3600 cells.",
+              "modelAnswer": "Use calculator trials in N(t) = 720(1.25)ᵗ. N(7) = 720(1.25)⁷ ≈ 3433.23 cells, which is below 3600. N(8) = 720(1.25)⁸ ≈ 4291.53 cells, which exceeds 3600. Since the population is multiplied by 1.25 each hour, it increases. Therefore 7 hours is too early and 8 is the first whole number of hours that works.\nFinal answer: 8 hours",
               "marks": 3
             },
             {
