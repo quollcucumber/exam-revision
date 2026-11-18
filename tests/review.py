@@ -24,7 +24,7 @@ def check_essay_state(browser, base):
     assert page.evaluate("""() =>
       window.earlierAnswer === document.querySelector('#practice textarea') &&
       window.timerButton.isConnected""")
-    assert "Self-mark total: 0 / 50" in page.inner_text("#practice")
+    assert "Self-mark total: 1 / 50" in page.inner_text("#practice")
     context.close()
 
 

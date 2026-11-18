@@ -45,7 +45,7 @@ for exam in subjects["geography"]["exams"]:
     bank = sum(len(s["questions"]) for s in exam["sections"])
     marks = [s["questions"][0]["marks"] if s.get("choose") == 1
              else sum(q["marks"] for q in s["questions"]) for s in exam["sections"]]
-    expected = {"study-guide": 50, "2023": 20, "2025": 40}[exam["id"]]
+    expected = {"study-guide": 50, "2023": 22, "2025": 40}[exam["id"]]
     assert sum(marks) == expected
     print(f'{exam["title"]}: {attempted} attempted / {bank} bank questions; '
           f'section marks {marks}; total {sum(marks)}; {exam["durationMinutes"]} minutes')
@@ -89,24 +89,38 @@ with sync_playwright() as p:
     page.locator("#exam-picker").wait_for()
     assert len(page.locator("#exam-picker option").all()) == 3
     assert "Self-mark total: 0 / 50" in page.inner_text("#practice")
-    for mark in page.locator("#practice input[type=number]").all():
+    for mark in page.locator("#practice input[type=number]:not([readonly])").all():
         mark.fill(mark.get_attribute("max"))
-    assert "Self-mark total: 50 / 50" in page.inner_text("#practice")
+    assert "Self-mark total: 45 / 50" in page.inner_text("#practice")
+    page.locator("#practice .choices").first.get_by_role("button", name="Biome", exact=True).click()
+    assert "Self-mark total: 46 / 50" in page.inner_text("#practice")
+    page.locator("#practice textarea").first.fill("My biome answer")
     page.reload()
-    page.get_by_text("Self-mark total: 50 / 50", exact=True).wait_for()
+    page.get_by_text("Self-mark total: 46 / 50", exact=True).wait_for()
+    assert page.locator("#practice textarea").first.input_value() == "My biome answer"
+    page.get_by_role("button", name="Start timer", exact=True).click()
     page.locator(".essay-picker").select_option("1")
-    assert "Self-mark total: 34 / 50" in page.inner_text("#practice")
+    assert "Self-mark total: 30 / 50" in page.inner_text("#practice")
+    page.get_by_role("button", name="Pause timer", exact=True).wait_for()
+    assert page.locator("#practice textarea").first.input_value() == "My biome answer"
     page.locator("#practice input[type=number]").last.fill("999")
-    assert "Self-mark total: 50 / 50" in page.inner_text("#practice")
+    assert page.locator("#practice input[type=number]").last.input_value() == "16"
+    assert "Self-mark total: 46 / 50" in page.inner_text("#practice")
     page.locator(".essay-picker").select_option("2")
-    assert "Self-mark total: 34 / 50" in page.inner_text("#practice")
+    assert "Self-mark total: 30 / 50" in page.inner_text("#practice")
     page.locator("#practice details").last.locator("summary").click()
     assert "desert" in page.locator("#practice details").last.inner_text()
     page.locator("#exam-picker").select_option("1")
-    assert "Self-mark total: 0 / 20" in page.inner_text("#practice")
-    page.locator("#practice .choices").first.get_by_role("button", name="True", exact=True).click()
+    assert "Self-mark total: 0 / 22" in page.inner_text("#practice")
+    page.locator("#practice .choices").first.get_by_role("button", name="False", exact=True).click()
     assert "Correct." in page.inner_text("#practice")
-    page.locator("#practice input[type=number]").first.fill("1")
+    assert "Self-mark total: 1 / 22" in page.inner_text("#practice")
+    page.get_by_role("button", name="Try again", exact=True).click()
+    assert "Self-mark total: 0 / 22" in page.inner_text("#practice")
+    page.evaluate("localStorage.setItem('geography-exam-2023', JSON.stringify({marks: {'0-0': 1, '1-0': 2}}))")
+    page.reload()
+    page.locator("#exam-picker").select_option("1")
+    assert "Self-mark total: 2 / 22" in page.inner_text("#practice")
     page.locator("#exam-picker").select_option("2")
     assert "Self-mark total: 0 / 40" in page.inner_text("#practice")
     assert "Rice seedlings in soil containing salt." in page.inner_text("#practice")
@@ -114,7 +128,7 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Pause timer", exact=True).wait_for()
     page.get_by_role("button", name="Pause timer", exact=True).click()
     page.get_by_role("button", name="Resume timer", exact=True).wait_for()
-    print("PASS: all three papers, choose-one essays, correct totals, independent saved marks, clamping and timer")
+    print("PASS: all three papers, choose-one essays, auto-marked MCQs, saved answers, correct totals, independent saved marks, clamping and timer")
 
     page.goto(BASE + "/english/")
     page.locator(".card").wait_for()
