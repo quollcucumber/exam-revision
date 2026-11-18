@@ -67,6 +67,9 @@ in soil containing salt”, for the missing photo. No graph values are invented.
   15 one-mark multiple-choice questions and 25 extended-response marks. The
   70-minute time is author-assigned. All diagram information is supplied in words;
   sketch/draw tasks are replaced by text-answerable calculations or descriptions.
+  Extended-response mixes differ: border area and parabola modelling in paper 1;
+  three-sided fencing, an exponential equation and radio-signal timing in paper 2;
+  culture growth and an inverse space-diagonal calculation in paper 3.
   The 2023 tech-active paper has a different short-answer allocation (23 marks);
   its topics informed the mix, not the new papers' section totals. The three
   Exam 1/Tech Free files are supporting topic references, not evidence that

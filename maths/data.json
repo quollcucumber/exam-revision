@@ -96,73 +96,63 @@
           "questions": [
             {
               "type": "short-answer",
-              "prompt": "1(a) Solve x² − 3 × x − 28 = 0 by factorising.",
-              "modelAnswer": "x² − 3 × x − 28 = (x + 4)(x − 7) = 0. By the null-factor law, x + 4 = 0 or x − 7 = 0.\nFinal answer: x = −4 or 7",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(a) Solve x² − 3x − 28 = 0 by factorising.",
+              "modelAnswer": "x² − 3x − 28 = (x + 4)(x − 7) = 0. By the null-factor law, x + 4 = 0 or x − 7 = 0.\nFinal answer: x = −4 or 7",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "1(b) The equation x² + px + 24 = 0 has solutions 3 and 8. Find p.",
               "modelAnswer": "Substitute x = 3: 9 + 3p + 24 = 0. Thus 3p = −33 and p = −11. This also gives (x − 3)(x − 8) = 0.\nFinal answer: p = −11",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) Simplify √12 + √27, giving an exact answer.",
-              "modelAnswer": "√12 = 2√3 and √27 = 3√3. Add like surds: (2 + 3)√3 = 5√3.\nFinal answer: 5 × √(3)",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "√12 = 2√3 and √27 = 3√3. Add like surds: (2 + 3)√3 = 5√3.\nFinal answer: 5√3",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(b) Rationalise the denominator of 7/√5.",
-              "modelAnswer": "Multiply numerator and denominator by √5: (7 × √5)/(√5 × √5) = 7√5/5.\nFinal answer: 7 × √(5)/5",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Multiply numerator and denominator by √5: (7√5)/(√5√5) = 7√5/5.\nFinal answer: 7√5/5",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "3 Simplify (a³b⁴)²/(a⁵b¹⁰), using positive indices only. Assume a and b are nonzero.",
-              "modelAnswer": "Apply the power rule: a⁶b⁸/(a⁵b¹⁰). Subtract indices: ab⁽⁻²⁾. Move the negative power to the denominator.\nFinal answer: a/b²",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Apply the power rule: a⁶b⁸/(a⁵b¹⁰). Subtract indices: ab⁻². Move the negative power to the denominator.\nFinal answer: a/b²",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(a) A maintenance ladder is 6.4 m long. Its upper end is 3.1 m vertically above its lower end, and the ground is horizontal. Find its angle of elevation to 2 decimal places.",
               "modelAnswer": "In the right-angled triangle, sin θ = opposite/hypotenuse = 3.1/6.4. Thus θ = sin⁻¹(3.1/6.4) = 28.971532…°.\nFinal answer: 28.97°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(b) A maintenance ladder is 6.4 m long. Its upper end is 3.1 m vertically above its lower end, and the ground is horizontal. Find the horizontal separation of its ends to 2 decimal places.",
               "modelAnswer": "Let d be the horizontal separation in metres. d² + 3.1² = 6.4², so d = √(6.4² − 3.1²) = 5.599107… m. Take the positive square root because d is a length.\nFinal answer: 5.60 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "5 Use the quadratic formula to solve 2 × x² − 3 × x − 7 = 0. Give both solutions to 2 decimal places.",
-              "modelAnswer": "a = 2, b = −3, c = −7. The discriminant b² − 4ac = (−3)² − 4 × 2 × (−7) = 65. Hence x = (−(−3) ± √65)/(2 × 2). Evaluating both signs gives −1.265564… and 2.765564….\nFinal answer: x = −1.27 or 2.77",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "5 Use the quadratic formula to solve 2x² − 3x − 7 = 0. Give both solutions to 2 decimal places.",
+              "modelAnswer": "a = 2, b = −3, c = −7. The discriminant b² − 4ac = (−3)² − 4 × 2(−7) = 65. Hence x = (−(−3) ± √65)/(2 × 2). Evaluating both signs gives −1.265564… and 2.765564….\nFinal answer: x = −1.27 or 2.77",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "6 Solve 2⁽ˣ ⁺ ³⁾ = 128.",
+              "prompt": "6 Solve 2ˣ⁺³ = 128.",
               "modelAnswer": "128 = 2⁷. Equal positive bases (not 1) have equal exponents, so x + 3 = 7. Subtract 3.\nFinal answer: x = 4",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "7 Calculate (7.24 × 10⁸)/(3.16 × 10³). Give the result in scientific notation to 3 significant figures.",
-              "modelAnswer": "Divide the coefficients and subtract the powers: (7.24/3.16) × 10⁽⁸ ⁻ ³⁾ = 2.29113924… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.29 × 10⁵",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Use 10⁸⁻³ = 10⁵. Divide the coefficients: (7.24/3.16) × 10⁸⁻³ = 2.29113924… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.29 × 10⁵",
+              "marks": 2
             }
           ]
         },
@@ -173,113 +163,105 @@
               "type": "multiple-choice",
               "prompt": "1. A ground robot moves 127 m north, then 78 m east. What is its bearing from its start, to the nearest degree?",
               "options": [
-                "A. 058°",
-                "B. 032°",
+                "A. 032°",
+                "B. 058°",
                 "C. 148°",
                 "D. 328°"
               ],
-              "answer": 1,
+              "answer": 0,
               "explanation": "tan θ = 78/127; θ = 032° clockwise from north.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "2. A rectangular parcel is 4 cm by 7 cm by 9 cm. What is its longest internal diagonal?",
               "options": [
-                "A. √(65) cm",
-                "B. 20 cm",
-                "C. √(146) cm",
+                "A. 20 cm",
+                "B. √146 cm",
+                "C. √65 cm",
                 "D. 9 cm"
               ],
-              "answer": 2,
-              "explanation": "d² = 4² + 7² + 9² = 146, so d = √(146) cm.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "d² = 4² + 7² + 9² = 146, so d = √146 cm.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "3. The bearing of a radio mast from a hut is 126°. What is the bearing of the hut from the mast?",
               "options": [
-                "A. 126°",
-                "B. 234°",
+                "A. 234°",
+                "B. 126°",
                 "C. 216°",
                 "D. 306°"
               ],
               "answer": 3,
               "explanation": "Reverse the direction by adding 180° modulo 360°: 126° + 180° gives 306°.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "4. Simplify 3√6 + 5√6.",
               "options": [
-                "A. 8 × √(6)",
-                "B. 15 × √(6)",
-                "C. 4 × √(3)",
-                "D. 48"
+                "A. 4√3",
+                "B. 48",
+                "C. 15√6",
+                "D. 8√6"
               ],
-              "answer": 0,
+              "answer": 3,
               "explanation": "Combine like surds by adding coefficients: (3 + 5)√6 = 8√6.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "5. Rationalise 5/√11.",
               "options": [
-                "A. 5 × √(11)",
-                "B. 5 × √(11)/11",
-                "C. √(11)/5",
+                "A. √11/5",
+                "B. 5√11",
+                "C. 5√11/11",
                 "D. 5/11"
               ],
-              "answer": 1,
+              "answer": 2,
               "explanation": "Multiply by √11/√11; the denominator becomes 11, giving 5√11/11.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "6. For nonzero z, simplify z⁴ × z⁶/z².",
               "options": [
-                "A. z²²",
-                "B. z¹²",
-                "C. z⁸",
-                "D. z¹⁰"
+                "A. z¹²",
+                "B. z²²",
+                "C. z¹⁰",
+                "D. z⁸"
               ],
-              "answer": 2,
+              "answer": 3,
               "explanation": "Add indices when multiplying, then subtract when dividing: 4 + 6 − 2 = 8.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "7. Expand (x + 3)(x − 7).",
               "options": [
-                "A. x² + 10 × x − 21",
-                "B. x² − 4 × x + 21",
-                "C. x² − 21",
-                "D. x² − 4 × x − 21"
+                "A. x² − 4x + 21",
+                "B. x² − 4x − 21",
+                "C. x² + 10x − 21",
+                "D. x² − 21"
               ],
-              "answer": 3,
-              "explanation": "x² − 7x + 3x − 21 = x² − 4 × x − 21.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "x² − 7x + 3x − 21 = x² − 4x − 21.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "8. Which expression equals x² − 100?",
               "options": [
-                "A. (x − 10)(x + 10)",
-                "B. (x − 10)²",
-                "C. (x − 100)(x + 100)",
-                "D. x(x − 100)"
+                "A. (x − 100)(x + 100)",
+                "B. x(x − 100)",
+                "C. (x − 10)(x + 10)",
+                "D. (x − 10)²"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "This is a difference of squares: x² − 10² = (x − 10)(x + 10).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
@@ -292,64 +274,59 @@
               ],
               "answer": 1,
               "explanation": "Factorise as (x − 4)(x − 8) = 0. Both factors can be zero, so x = 4 or 8.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
-              "prompt": "10. Solve 2⁽²ˣ⁾ = 256.",
+              "prompt": "10. Solve 2²ˣ = 256.",
               "options": [
-                "A. 8",
-                "B. 16",
+                "A. 16",
+                "B. 8",
                 "C. 4",
                 "D. 3"
               ],
               "answer": 2,
               "explanation": "256 = 2⁸, so 2x = 8, giving x = 8/2.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "11. A parabola has turning point (4, −7) and one x-intercept at (10, 0). What is the x-coordinate of the other x-intercept?",
               "options": [
-                "A. −10",
-                "B. 6",
-                "C. 14",
-                "D. −2"
+                "A. 14",
+                "B. −10",
+                "C. −2",
+                "D. 6"
               ],
-              "answer": 3,
+              "answer": 2,
               "explanation": "The axis is x = 4. Equal distances on either side give the other intercept x = 2 × 4 − 10 = −2.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "12. How many distinct real solutions does x² + 5x + 25 = 0 have?",
               "options": [
-                "A. 0 distinct real solutions",
-                "B. 1 distinct real solutions",
-                "C. 2 distinct real solutions",
-                "D. 3 distinct real solutions"
+                "A. 3 distinct real solutions",
+                "B. 0 distinct real solutions",
+                "C. 1 distinct real solution",
+                "D. 2 distinct real solutions"
               ],
-              "answer": 0,
-              "explanation": "The discriminant is 5² − 4 × 25 = −75 < 0, so there are no real solutions.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "The discriminant is 5² − 4(25) = −75 < 0, so there are 0 distinct real solutions.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "13. A parabola has x-intercepts (−3, 0), (7, 0) and passes through (0, −42). Which is its equation?",
               "options": [
-                "A. y = −2 × x² + 8 × x + 42",
-                "B. y = 2 × x² − 8 × x − 42",
-                "C. y = x² − 4 × x − 21",
-                "D. y = 2 × x² + 8 × x − 42"
+                "A. y = 2x² − 8x − 42",
+                "B. y = 2x² + 8x − 42",
+                "C. y = −2x² + 8x + 42",
+                "D. y = x² − 4x − 21"
               ],
-              "answer": 1,
-              "explanation": "y = a(x − (−3))(x − 7). Substitute (0, −42): −42 = a × −21, so a = 2.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 0,
+              "explanation": "y = a(x − (−3))(x − 7). Substitute (0, −42): −42 = −21a, so a = 2.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
@@ -357,27 +334,25 @@
               "options": [
                 "A. −7",
                 "B. 9",
-                "C. 7",
-                "D. −9"
+                "C. −9",
+                "D. 7"
               ],
-              "answer": 2,
+              "answer": 3,
               "explanation": "Vertex form is y = (x − h)² + k, with turning point (h, k) = (7, 9).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "15. Calculate (6 × 10⁵)/(2 × 10³). Which value is correct?",
               "options": [
-                "A. 3",
-                "B. 30000",
-                "C. 3000",
-                "D. 300"
+                "A. 300",
+                "B. 3000",
+                "C. 30000",
+                "D. 3"
               ],
-              "answer": 3,
-              "explanation": "Divide coefficients and subtract exponents: (6/2) × 10⁽⁵ ⁻ ³⁾ = 300.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 0,
+              "explanation": "Divide coefficients and subtract exponents: (6/2) × 10⁵⁻³ = 300.",
+              "marks": 1
             }
           ]
         },
@@ -388,71 +363,61 @@
               "type": "short-answer",
               "prompt": "1(a) A rectangular mural measures 9 m by 5 m. A border of uniform width x metres is added outside all four sides. Derive a simplified formula for the area A of the border only.",
               "modelAnswer": "The outer dimensions are (9 + 2x) m and (5 + 2x) m. Subtract the original area: A = (9 + 2x)(5 + 2x) − 45 = 4x² + 28x.\nFinal answer: A = 4x² + 28x m²",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "1(b) A rectangular mural measures 9 m by 5 m. A border of uniform width x metres is added outside all four sides. The border area must not exceed 72 m². Find the valid interval for x, allowing x = 0, and justify both bounds.",
               "modelAnswer": "As x is a width, x ≥ 0. The area condition is 4x² + 28x ≤ 72, so 4(x − 2)(x + 9) ≤ 0. The quadratic opens upward, so its algebraic interval lies between the roots −9 and 2. Intersect with x ≥ 0.\nFinal answer: 0 ≤ x ≤ 2 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "1(c) A rectangular mural measures 9 m by 5 m. A border of uniform width x metres is added outside all four sides. Find the border width if its area is 32 m². Reject any invalid solution.",
               "modelAnswer": "4x² + 28x = 32, so 4(x − 1)(x + 8) = 0. Hence x = 1 or x = −8. A negative width is impossible, so only the positive solution is valid.\nFinal answer: x = 1 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) A survey rover travels from base A 36 km due east to B, then 68 km on bearing 135° to C. Treat the terrain as a horizontal plane. Find how far east and how far south C is from A, both to 2 decimal places.",
               "modelAnswer": "The second leg has east component 68 sin 135° and north component 68 cos 135°. Thus total east = 36 + 68 sin 135° = 84.08326112… km. Total south = −68 cos 135° = 48.08326112… km.\nFinal answer: east 84.08 km; south 48.08 km",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "2(b) A survey rover travels from base A 36 km due east to B, then 68 km on bearing 135° to C. Treat the terrain as a horizontal plane. Find the bearing of C from A, to the nearest whole degree.",
               "modelAnswer": "Using unrounded components E = 84.08326112… and S = 48.08326112…, C is southeast of A. The angle east of south is tan⁻¹(E/S) = 60.23679210…°. The true bearing is 180° − 60.23679210…° = 119.76320790…°.\nFinal answer: 120°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(c) A survey rover travels from base A 36 km due east to B, then 68 km on bearing 135° to C. Treat the terrain as a horizontal plane. It returns directly from C to A at 84 km/h. Find the direct distance to 2 decimal places and return time to the nearest minute.",
               "modelAnswer": "Using unrounded components, AC = √(E² + S²) = 96.86069792… km. Time = distance/speed = 96.86069792…/84 hours. Multiply by 60 to obtain 69.18621280… minutes; round only at the end.\nFinal answer: 96.86 km; 69 minutes",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "3(a) A parabola crosses the x-axis at (−3, 0) and (5, 0), and passes through (0, −30). Find its equation in expanded form.",
-              "modelAnswer": "Use y = a(x − (−3))(x − 5). At x = 0, −30 = a × −15, so a = 2. Therefore y = 2(x + 3)(x − 5). Expanding gives 2 × x² − 4 × x − 30.\nFinal answer: y = 2 × x² − 4 × x − 30",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Use y = a(x − (−3))(x − 5). At x = 0, −30 = −15a, so a = 2. Therefore y = 2(x + 3)(x − 5). Expanding gives 2x² − 4x − 30.\nFinal answer: y = 2x² − 4x − 30",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "3(b) For y = 2 × x² − 4 × x − 30, find the turning point, axis of symmetry and whether the turning point is a maximum or minimum.",
+              "prompt": "3(b) For y = 2x² − 4x − 30, find the turning point, axis of symmetry and whether the turning point is a maximum or minimum.",
               "modelAnswer": "The roots are −3 and 5, so the axis is midway between them: x = (−3 + 5)/2 = 1. Substitute x = 1: y = 2(4)(−4) = −32. Since the coefficient 2 of x² is positive, the parabola opens upward.\nFinal answer: turning point (1, −32); axis x = 1; minimum",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "4 The inside of a jewellery box is a rectangular prism 7 cm long, 11 cm wide and 13 cm high. What is the maximum length of a straight rigid rod that fits fully inside, to 2 decimal places? Ignore the rod’s thickness.",
               "modelAnswer": "The floor diagonal has square 7² + 11² = 170. Apply Pythagoras again with height 13: d² = 170 + 13² = 339. The longest rod lies along a space diagonal, so d = √339 = 18.41195264… cm.\nFinal answer: 18.41 cm",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "5 An observer on a lighthouse balcony, 46 m vertically above level ground, sees a marker at an angle of depression of 29°. Find both the horizontal ground distance to the marker and the straight line-of-sight distance, to 2 decimal places. Ignore eye-height adjustments.",
               "modelAnswer": "The angle of elevation from the marker equals 29° because the horizontals are parallel. For ground distance d, tan 29° = 46/d, so d = 46/tan 29° = 82.98619674… m. For line-of-sight distance s, sin 29° = 46/s, so s = 46/sin 29° = 94.88260562… m.\nFinal answer: ground 82.99 m; line of sight 94.88 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             }
           ]
         }
@@ -470,73 +435,63 @@
           "questions": [
             {
               "type": "short-answer",
-              "prompt": "1(a) Solve x² − 4 × x − 60 = 0 by factorising.",
-              "modelAnswer": "x² − 4 × x − 60 = (x + 6)(x − 10) = 0. By the null-factor law, x + 6 = 0 or x − 10 = 0.\nFinal answer: x = −6 or 10",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(a) Solve x² − 4x − 60 = 0 by factorising.",
+              "modelAnswer": "x² − 4x − 60 = (x + 6)(x − 10) = 0. By the null-factor law, x + 6 = 0 or x − 10 = 0.\nFinal answer: x = −6 or 10",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "1(b) The equation x² + px + 44 = 0 has solutions 4 and 11. Find p.",
               "modelAnswer": "Substitute x = 4: 16 + 4p + 44 = 0. Thus 4p = −60 and p = −15. This also gives (x − 4)(x − 11) = 0.\nFinal answer: p = −15",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) Simplify √18 + √32, giving an exact answer.",
-              "modelAnswer": "√18 = 3√2 and √32 = 4√2. Add like surds: (3 + 4)√2 = 7√2.\nFinal answer: 7 × √(2)",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "√18 = 3√2 and √32 = 4√2. Add like surds: (3 + 4)√2 = 7√2.\nFinal answer: 7√2",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(b) Rationalise the denominator of 11/√7.",
-              "modelAnswer": "Multiply numerator and denominator by √7: (11 × √7)/(√7 × √7) = 11√7/7.\nFinal answer: 11 × √(7)/7",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Multiply numerator and denominator by √7: (11√7)/(√7√7) = 11√7/7.\nFinal answer: 11√7/7",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "3 Simplify (a⁵b³)²/(a⁷b¹⁰), using positive indices only. Assume a and b are nonzero.",
-              "modelAnswer": "Apply the power rule: a¹⁰b⁶/(a⁷b¹⁰). Subtract indices: a³b⁽⁻⁴⁾. Move the negative power to the denominator.\nFinal answer: a³/b⁴",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Apply the power rule: a¹⁰b⁶/(a⁷b¹⁰). Subtract indices: a³b⁻⁴. Move the negative power to the denominator.\nFinal answer: a³/b⁴",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(a) A loading ramp is 7.3 m long. Its upper end is 4.2 m vertically above its lower end, and the ground is horizontal. Find its angle of elevation to 2 decimal places.",
               "modelAnswer": "In the right-angled triangle, sin θ = opposite/hypotenuse = 4.2/7.3. Thus θ = sin⁻¹(4.2/7.3) = 35.123619…°.\nFinal answer: 35.12°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(b) A loading ramp is 7.3 m long. Its upper end is 4.2 m vertically above its lower end, and the ground is horizontal. Find the horizontal separation of its ends to 2 decimal places.",
               "modelAnswer": "Let d be the horizontal separation in metres. d² + 4.2² = 7.3², so d = √(7.3² − 4.2²) = 5.970762… m. Take the positive square root because d is a length.\nFinal answer: 5.97 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "5 Use the quadratic formula to solve 3 × x² + 5 × x − 9 = 0. Give both solutions to 2 decimal places.",
-              "modelAnswer": "a = 3, b = 5, c = −9. The discriminant b² − 4ac = (5)² − 4 × 3 × (−9) = 133. Hence x = (−(5) ± √133)/(2 × 3). Evaluating both signs gives −2.755427… and 1.088760….\nFinal answer: x = −2.76 or 1.09",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "5 Use the quadratic formula to solve 3x² + 5x − 9 = 0. Give both solutions to 2 decimal places.",
+              "modelAnswer": "a = 3, b = 5, c = −9. The discriminant b² − 4ac = (5)² − 4 × 3(−9) = 133. Hence x = (−(5) ± √133)/(2 × 3). Evaluating both signs gives −2.755427… and 1.088760….\nFinal answer: x = −2.76 or 1.09",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "6 Solve 2⁽ˣ ⁺ ⁴⁾ = 1024.",
+              "prompt": "6 Solve 2ˣ⁺⁴ = 1024.",
               "modelAnswer": "1024 = 2¹⁰. Equal positive bases (not 1) have equal exponents, so x + 4 = 10. Subtract 4.\nFinal answer: x = 6",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "7 Calculate (8.53 × 10⁹)/(4.17 × 10⁴). Give the result in scientific notation to 3 significant figures.",
-              "modelAnswer": "Divide the coefficients and subtract the powers: (8.53/4.17) × 10⁽⁹ ⁻ ⁴⁾ = 2.04556355… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.05 × 10⁵",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Use 10⁹⁻⁴ = 10⁵. Divide the coefficients: (8.53/4.17) × 10⁹⁻⁴ = 2.04556355… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.05 × 10⁵",
+              "marks": 2
             }
           ]
         },
@@ -547,131 +502,122 @@
               "type": "multiple-choice",
               "prompt": "1. A ground robot moves 144 m north, then 91 m east. What is its bearing from its start, to the nearest degree?",
               "options": [
-                "A. 058°",
-                "B. 148°",
-                "C. 032°",
-                "D. 328°"
+                "A. 328°",
+                "B. 058°",
+                "C. 148°",
+                "D. 032°"
               ],
-              "answer": 2,
+              "answer": 3,
               "explanation": "tan θ = 91/144; θ = 032° clockwise from north.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "2. A rectangular parcel is 5 cm by 8 cm by 10 cm. What is its longest internal diagonal?",
               "options": [
-                "A. √(89) cm",
-                "B. 23 cm",
-                "C. √(114) cm",
-                "D. 3 × √(21) cm"
+                "A. 23 cm",
+                "B. 3√21 cm",
+                "C. √89 cm",
+                "D. √114 cm"
               ],
-              "answer": 3,
-              "explanation": "d² = 5² + 8² + 10² = 189, so d = 3 × √(21) cm.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "d² = 5² + 8² + 10² = 189, so d = 3√21 cm.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "3. The bearing of a radio mast from a hut is 165°. What is the bearing of the hut from the mast?",
               "options": [
-                "A. 345°",
-                "B. 165°",
-                "C. 195°",
-                "D. 255°"
+                "A. 255°",
+                "B. 195°",
+                "C. 345°",
+                "D. 165°"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "Reverse the direction by adding 180° modulo 360°: 165° + 180° gives 345°.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "4. Simplify 4√10 + 6√10.",
               "options": [
-                "A. 24 × √(10)",
-                "B. 10 × √(10)",
-                "C. 10",
-                "D. 100"
+                "A. 24√10",
+                "B. 10√10",
+                "C. 100",
+                "D. 10"
               ],
               "answer": 1,
               "explanation": "Combine like surds by adding coefficients: (4 + 6)√10 = 10√10.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "5. Rationalise 6/√13.",
               "options": [
-                "A. 6 × √(13)",
-                "B. √(13)/6",
-                "C. 6 × √(13)/13",
-                "D. 6/13"
+                "A. 6√13/13",
+                "B. √13/6",
+                "C. 6/13",
+                "D. 6√13"
               ],
-              "answer": 2,
+              "answer": 0,
               "explanation": "Multiply by √13/√13; the denominator becomes 13, giving 6√13/13.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "6. For nonzero z, simplify z⁵ × z⁷/z³.",
               "options": [
-                "A. z³²",
-                "B. z¹⁵",
-                "C. z¹²",
-                "D. z⁹"
+                "A. z⁹",
+                "B. z¹²",
+                "C. z¹⁵",
+                "D. z³²"
               ],
-              "answer": 3,
+              "answer": 0,
               "explanation": "Add indices when multiplying, then subtract when dividing: 5 + 7 − 3 = 9.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "7. Expand (x + 4)(x − 8).",
               "options": [
-                "A. x² − 4 × x − 32",
-                "B. x² + 12 × x − 32",
-                "C. x² − 4 × x + 32",
-                "D. x² − 32"
+                "A. x² − 32",
+                "B. x² − 4x + 32",
+                "C. x² − 4x − 32",
+                "D. x² + 12x − 32"
               ],
-              "answer": 0,
-              "explanation": "x² − 8x + 4x − 32 = x² − 4 × x − 32.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 2,
+              "explanation": "x² − 8x + 4x − 32 = x² − 4x − 32.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "8. Which expression equals x² − 121?",
               "options": [
-                "A. (x − 11)²",
-                "B. (x − 11)(x + 11)",
-                "C. (x − 121)(x + 121)",
-                "D. x(x − 121)"
+                "A. (x − 121)(x + 121)",
+                "B. x(x − 121)",
+                "C. (x − 11)(x + 11)",
+                "D. (x − 11)²"
               ],
-              "answer": 1,
+              "answer": 2,
               "explanation": "This is a difference of squares: x² − 11² = (x − 11)(x + 11).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "9. What is the complete solution set of x² − 14x + 45 = 0?",
               "options": [
-                "A. {−5, −9}",
-                "B. {14, 45}",
-                "C. {5, 9}",
-                "D. {5 only}"
+                "A. {5, 9}",
+                "B. {5 only}",
+                "C. {−5, −9}",
+                "D. {14, 45}"
               ],
-              "answer": 2,
+              "answer": 0,
               "explanation": "Factorise as (x − 5)(x − 9) = 0. Both factors can be zero, so x = 5 or 9.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
-              "prompt": "10. Solve 2⁽²ˣ⁾ = 512.",
+              "prompt": "10. Solve 2²ˣ = 512.",
               "options": [
                 "A. 9",
                 "B. 18",
@@ -680,78 +626,72 @@
               ],
               "answer": 3,
               "explanation": "512 = 2⁹, so 2x = 9, giving x = 9/2.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "11. A parabola has turning point (5, −8) and one x-intercept at (13, 0). What is the x-coordinate of the other x-intercept?",
               "options": [
-                "A. −3",
+                "A. 18",
                 "B. −13",
-                "C. 8",
-                "D. 18"
+                "C. −3",
+                "D. 8"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "The axis is x = 5. Equal distances on either side give the other intercept x = 2 × 5 − 13 = −3.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
-              "prompt": "12. How many distinct real solutions does x² + 6x + 36 = 0 have?",
+              "prompt": "12. How many distinct real solutions does x² + 12x + 36 = 0 have?",
               "options": [
-                "A. 1 distinct real solutions",
-                "B. 0 distinct real solutions",
-                "C. 2 distinct real solutions",
-                "D. 3 distinct real solutions"
+                "A. 1 distinct real solution",
+                "B. 3 distinct real solutions",
+                "C. 0 distinct real solutions",
+                "D. 2 distinct real solutions"
               ],
-              "answer": 1,
-              "explanation": "The discriminant is 6² − 4 × 36 = −108 < 0, so there are no real solutions.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 0,
+              "explanation": "The discriminant is 12² − 4(36) = 0 = 0, so there is 1 distinct real solution.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "13. A parabola has x-intercepts (−4, 0), (8, 0) and passes through (0, −96). Which is its equation?",
               "options": [
-                "A. y = −3 × x² + 12 × x + 96",
-                "B. y = x² − 4 × x − 32",
-                "C. y = 3 × x² − 12 × x − 96",
-                "D. y = 3 × x² + 12 × x − 96"
+                "A. y = x² − 4x − 32",
+                "B. y = 3x² − 12x − 96",
+                "C. y = 3x² + 12x − 96",
+                "D. y = −3x² + 12x + 96"
               ],
-              "answer": 2,
-              "explanation": "y = a(x − (−4))(x − 8). Substitute (0, −96): −96 = a × −32, so a = 3.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "y = a(x − (−4))(x − 8). Substitute (0, −96): −96 = −32a, so a = 3.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "14. What is the x-coordinate of the turning point of y = (x − 8)² + 10?",
               "options": [
-                "A. −8",
-                "B. 10",
-                "C. −10",
+                "A. 10",
+                "B. −10",
+                "C. −8",
                 "D. 8"
               ],
               "answer": 3,
               "explanation": "Vertex form is y = (x − h)² + k, with turning point (h, k) = (8, 10).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "15. Calculate (12 × 10⁶)/(3 × 10⁴). Which value is correct?",
               "options": [
-                "A. 400",
-                "B. 4",
-                "C. 40000",
-                "D. 4000"
+                "A. 4000",
+                "B. 40000",
+                "C. 4",
+                "D. 400"
               ],
-              "answer": 0,
-              "explanation": "Divide coefficients and subtract exponents: (12/3) × 10⁽⁶ ⁻ ⁴⁾ = 400.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 3,
+              "explanation": "Divide coefficients and subtract exponents: (12/3) × 10⁶⁻⁴ = 400.",
+              "marks": 1
             }
           ]
         },
@@ -760,73 +700,63 @@
           "questions": [
             {
               "type": "short-answer",
-              "prompt": "1(a) A rectangular stage measures 12 m by 7 m. A border of uniform width x metres is added outside all four sides. Derive a simplified formula for the area A of the border only.",
-              "modelAnswer": "The outer dimensions are (12 + 2x) m and (7 + 2x) m. Subtract the original area: A = (12 + 2x)(7 + 2x) − 84 = 4x² + 38x.\nFinal answer: A = 4x² + 38x m²",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(a) A wildlife shelter uses 34 m of fencing to enclose three sides of a rectangular exercise pen against a straight wall. The two sides perpendicular to the wall each have length x metres; the remaining fenced side has length y metres. Express y in terms of x and derive a simplified formula for the area A.",
+              "modelAnswer": "The three fenced sides total 34 m, so 2x + y = 34 and y = 34 − 2x. Area = length × width, so A = x(34 − 2x) = 34x − 2x².\nFinal answer: y = 34 − 2x m; A = 34x − 2x² m²",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "1(b) A rectangular stage measures 12 m by 7 m. A border of uniform width x metres is added outside all four sides. The border area must not exceed 150 m². Find the valid interval for x, allowing x = 0, and justify both bounds.",
-              "modelAnswer": "As x is a width, x ≥ 0. The area condition is 4x² + 38x ≤ 150, so 4(x − 3)(x + 25/2) ≤ 0. The quadratic opens upward, so its algebraic interval lies between the roots −25/2 and 3. Intersect with x ≥ 0.\nFinal answer: 0 ≤ x ≤ 3 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(b) A wildlife shelter uses 34 m of fencing to enclose three sides of a rectangular exercise pen against a straight wall. The two sides perpendicular to the wall each have length x metres; the remaining fenced side has length y metres. State the valid interval for x for a non-degenerate pen, and find the greatest possible area.",
+              "modelAnswer": "Both lengths must be positive: x > 0 and 34 − 2x > 0, giving 0 < x < 17. Complete the square: A = −2(x − 8.5)² + 144.5. The squared term is nonnegative, so A is at most 144.5 m², attained when x = 8.5 m (and y = 17 m).\nFinal answer: 0 < x < 17 m; maximum area 144.5 m² at x = 8.5 m",
+              "marks": 3
             },
             {
               "type": "short-answer",
-              "prompt": "1(c) A rectangular stage measures 12 m by 7 m. A border of uniform width x metres is added outside all four sides. Find the border width if its area is 92 m². Reject any invalid solution.",
-              "modelAnswer": "4x² + 38x = 92, so 4(x − 2)(x + 23/2) = 0. Hence x = 2 or x = −23/2. A negative width is impossible, so only the positive solution is valid.\nFinal answer: x = 2 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(c) A wildlife shelter uses 34 m of fencing to enclose three sides of a rectangular exercise pen against a straight wall. The two sides perpendicular to the wall each have length x metres; the remaining fenced side has length y metres. Find all possible values of x if the pen has area 120 m². Explain whether each is valid.",
+              "modelAnswer": "34x − 2x² = 120. Rearrange and divide by −2: x² − 17x + 60 = 0. Factorise: (x − 5)(x − 12) = 0. Thus x = 5 or x = 12. Both satisfy 0 < x < 17; the corresponding lengths y are 24 m and 10 m, so both pens are valid.\nFinal answer: x = 5 m or 12 m",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) A delivery aircraft travels from base A 43 km due east to B, then 76 km on bearing 120° to C. Treat the terrain as a horizontal plane. Find how far east and how far south C is from A, both to 2 decimal places.",
               "modelAnswer": "The second leg has east component 76 sin 120° and north component 76 cos 120°. Thus total east = 43 + 76 sin 120° = 108.81793069… km. Total south = −76 cos 120° = 38.00000000… km.\nFinal answer: east 108.82 km; south 38.00 km",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "2(b) A delivery aircraft travels from base A 43 km due east to B, then 76 km on bearing 120° to C. Treat the terrain as a horizontal plane. Find the bearing of C from A, to the nearest whole degree.",
               "modelAnswer": "Using unrounded components E = 108.81793069… and S = 38.00000000…, C is southeast of A. The angle east of south is tan⁻¹(E/S) = 70.75043297…°. The true bearing is 180° − 70.75043297…° = 109.24956703…°.\nFinal answer: 109°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(c) A delivery aircraft travels from base A 43 km due east to B, then 76 km on bearing 120° to C. Treat the terrain as a horizontal plane. It returns directly from C to A at 95 km/h. Find the direct distance to 2 decimal places and return time to the nearest minute.",
               "modelAnswer": "Using unrounded components, AC = √(E² + S²) = 115.26205811… km. Time = distance/speed = 115.26205811…/95 hours. Multiply by 60 to obtain 72.79708933… minutes; round only at the end.\nFinal answer: 115.26 km; 73 minutes",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "3(a) A parabola crosses the x-axis at (−5, 0) and (9, 0), and passes through (0, −135). Find its equation in expanded form.",
-              "modelAnswer": "Use y = a(x − (−5))(x − 9). At x = 0, −135 = a × −45, so a = 3. Therefore y = 3(x + 5)(x − 9). Expanding gives 3 × x² − 12 × x − 135.\nFinal answer: y = 3 × x² − 12 × x − 135",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Use y = a(x − (−5))(x − 9). At x = 0, −135 = −45a, so a = 3. Therefore y = 3(x + 5)(x − 9). Expanding gives 3x² − 12x − 135.\nFinal answer: y = 3x² − 12x − 135",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "3(b) For y = 3 × x² − 12 × x − 135, find the turning point, axis of symmetry and whether the turning point is a maximum or minimum.",
+              "prompt": "3(b) For y = 3x² − 12x − 135, find the turning point, axis of symmetry and whether the turning point is a maximum or minimum.",
               "modelAnswer": "The roots are −5 and 9, so the axis is midway between them: x = (−5 + 9)/2 = 2. Substitute x = 2: y = 3(7)(−7) = −147. Since the coefficient 3 of x² is positive, the parabola opens upward.\nFinal answer: turning point (2, −147); axis x = 2; minimum",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
-              "prompt": "4 The inside of a toolbox is a rectangular prism 8 cm long, 14 cm wide and 17 cm high. What is the maximum length of a straight rigid rod that fits fully inside, to 2 decimal places? Ignore the rod’s thickness.",
-              "modelAnswer": "The floor diagonal has square 8² + 14² = 260. Apply Pythagoras again with height 17: d² = 260 + 17² = 549. The longest rod lies along a space diagonal, so d = √549 = 23.43074903… cm.\nFinal answer: 23.43 cm",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "4 Solve 2³ˣ⁻² = 8192, showing your exponent working.",
+              "modelAnswer": "8192 = 2¹³. Since equal powers of base 2 have equal exponents, 3x − 2 = 13. Hence 3x = 15 and x = 5.\nFinal answer: x = 5",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "5 An observer on a cliff lookout, 57 m vertically above level ground, sees a marker at an angle of depression of 34°. Find both the horizontal ground distance to the marker and the straight line-of-sight distance, to 2 decimal places. Ignore eye-height adjustments.",
-              "modelAnswer": "The angle of elevation from the marker equals 34° because the horizontals are parallel. For ground distance d, tan 34° = 57/d, so d = 57/tan 34° = 84.50597521… m. For line-of-sight distance s, sin 34° = 57/s, so s = 57/sin 34° = 101.93262405… m.\nFinal answer: ground 84.51 m; line of sight 101.93 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "5 A radio command travels 4.68 × 10⁸ m to a space probe at a constant speed of 2.40 × 10⁸ m/s. The probe replies immediately over the same distance at the same speed. Calculate the one-way travel time and the total time until the reply returns. Give both times to 3 significant figures.",
+              "modelAnswer": "Time = distance/speed. One-way time = (4.68 × 10⁸)/(2.40 × 10⁸) = (4.68/2.40) × 10⁸⁻⁸ = 1.95 s. The round trip covers twice the distance, so total time = 2(1.95) = 3.90 s to 3 significant figures.\nFinal answer: one-way 1.95 s; round trip 3.90 s",
+              "marks": 3
             }
           ]
         }
@@ -844,73 +774,63 @@
           "questions": [
             {
               "type": "short-answer",
-              "prompt": "1(a) Solve x² − 2 × x − 99 = 0 by factorising.",
-              "modelAnswer": "x² − 2 × x − 99 = (x + 9)(x − 11) = 0. By the null-factor law, x + 9 = 0 or x − 11 = 0.\nFinal answer: x = −9 or 11",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "1(a) Solve x² − 2x − 99 = 0 by factorising.",
+              "modelAnswer": "x² − 2x − 99 = (x + 9)(x − 11) = 0. By the null-factor law, x + 9 = 0 or x − 11 = 0.\nFinal answer: x = −9 or 11",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "1(b) The equation x² + px + 60 = 0 has solutions 5 and 12. Find p.",
               "modelAnswer": "Substitute x = 5: 25 + 5p + 60 = 0. Thus 5p = −85 and p = −17. This also gives (x − 5)(x − 12) = 0.\nFinal answer: p = −17",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) Simplify √80 + √125, giving an exact answer.",
-              "modelAnswer": "√80 = 4√5 and √125 = 5√5. Add like surds: (4 + 5)√5 = 9√5.\nFinal answer: 9 × √(5)",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "√80 = 4√5 and √125 = 5√5. Add like surds: (4 + 5)√5 = 9√5.\nFinal answer: 9√5",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(b) Rationalise the denominator of 13/√3.",
-              "modelAnswer": "Multiply numerator and denominator by √3: (13 × √3)/(√3 × √3) = 13√3/3.\nFinal answer: 13 × √(3)/3",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Multiply numerator and denominator by √3: (13√3)/(√3√3) = 13√3/3.\nFinal answer: 13√3/3",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "3 Simplify (a⁴b⁵)²/(a⁶b¹³), using positive indices only. Assume a and b are nonzero.",
-              "modelAnswer": "Apply the power rule: a⁸b¹⁰/(a⁶b¹³). Subtract indices: a²b⁽⁻³⁾. Move the negative power to the denominator.\nFinal answer: a²/b³",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Apply the power rule: a⁸b¹⁰/(a⁶b¹³). Subtract indices: a²b⁻³. Move the negative power to the denominator.\nFinal answer: a²/b³",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(a) A rescue gangway is 8.6 m long. Its upper end is 5.3 m vertically above its lower end, and the ground is horizontal. Find its angle of elevation to 2 decimal places.",
               "modelAnswer": "In the right-angled triangle, sin θ = opposite/hypotenuse = 5.3/8.6. Thus θ = sin⁻¹(5.3/8.6) = 38.044919…°.\nFinal answer: 38.04°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "4(b) A rescue gangway is 8.6 m long. Its upper end is 5.3 m vertically above its lower end, and the ground is horizontal. Find the horizontal separation of its ends to 2 decimal places.",
               "modelAnswer": "Let d be the horizontal separation in metres. d² + 5.3² = 8.6², so d = √(8.6² − 5.3²) = 6.772739… m. Take the positive square root because d is a length.\nFinal answer: 6.77 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "5 Use the quadratic formula to solve 4 × x² − 7 × x − 6 = 0. Give both solutions to 2 decimal places.",
-              "modelAnswer": "a = 4, b = −7, c = −6. The discriminant b² − 4ac = (−7)² − 4 × 4 × (−6) = 145. Hence x = (−(−7) ± √145)/(2 × 4). Evaluating both signs gives −0.630199… and 2.380199….\nFinal answer: x = −0.63 or 2.38",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "5 Use the quadratic formula to solve 4x² − 7x − 6 = 0. Give both solutions to 2 decimal places.",
+              "modelAnswer": "a = 4, b = −7, c = −6. The discriminant b² − 4ac = (−7)² − 4 × 4(−6) = 145. Hence x = (−(−7) ± √145)/(2 × 4). Evaluating both signs gives −0.630199… and 2.380199….\nFinal answer: x = −0.63 or 2.38",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "6 Solve 2⁽ˣ ⁺ ⁵⁾ = 4096.",
+              "prompt": "6 Solve 2ˣ⁺⁵ = 4096.",
               "modelAnswer": "4096 = 2¹². Equal positive bases (not 1) have equal exponents, so x + 5 = 12. Subtract 5.\nFinal answer: x = 7",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "7 Calculate (6.91 × 10¹⁰)/(2.73 × 10⁵). Give the result in scientific notation to 3 significant figures.",
-              "modelAnswer": "Divide the coefficients and subtract the powers: (6.91/2.73) × 10⁽¹⁰ ⁻ ⁵⁾ = 2.53113553… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.53 × 10⁵",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "modelAnswer": "Use 10¹⁰⁻⁵ = 10⁵. Divide the coefficients: (6.91/2.73) × 10¹⁰⁻⁵ = 2.53113553… × 10⁵. Round the coefficient to 3 significant figures.\nFinal answer: 2.53 × 10⁵",
+              "marks": 2
             }
           ]
         },
@@ -921,211 +841,196 @@
               "type": "multiple-choice",
               "prompt": "1. A ground robot moves 161 m north, then 104 m east. What is its bearing from its start, to the nearest degree?",
               "options": [
-                "A. 057°",
-                "B. 147°",
+                "A. 033°",
+                "B. 057°",
                 "C. 327°",
-                "D. 033°"
+                "D. 147°"
               ],
-              "answer": 3,
+              "answer": 0,
               "explanation": "tan θ = 104/161; θ = 033° clockwise from north.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "2. A rectangular parcel is 6 cm by 9 cm by 11 cm. What is its longest internal diagonal?",
               "options": [
-                "A. √(238) cm",
-                "B. 3 × √(13) cm",
-                "C. 26 cm",
-                "D. 3 × √(17) cm"
+                "A. 3√13 cm",
+                "B. 26 cm",
+                "C. 3√17 cm",
+                "D. √238 cm"
               ],
-              "answer": 0,
-              "explanation": "d² = 6² + 9² + 11² = 238, so d = √(238) cm.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 3,
+              "explanation": "d² = 6² + 9² + 11² = 238, so d = √238 cm.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "3. The bearing of a radio mast from a hut is 204°. What is the bearing of the hut from the mast?",
               "options": [
-                "A. 204°",
-                "B. 024°",
-                "C. 156°",
-                "D. 294°"
+                "A. 156°",
+                "B. 294°",
+                "C. 024°",
+                "D. 204°"
               ],
-              "answer": 1,
+              "answer": 2,
               "explanation": "Reverse the direction by adding 180° modulo 360°: 204° + 180° gives 024°.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "4. Simplify 5√7 + 7√7.",
               "options": [
-                "A. 35 × √(7)",
-                "B. 2 × √(21)",
-                "C. 12 × √(7)",
-                "D. 84"
+                "A. 12√7",
+                "B. 35√7",
+                "C. 84",
+                "D. 2√21"
               ],
-              "answer": 2,
+              "answer": 0,
               "explanation": "Combine like surds by adding coefficients: (5 + 7)√7 = 12√7.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "5. Rationalise 7/√17.",
               "options": [
-                "A. 7 × √(17)",
-                "B. √(17)/7",
-                "C. 7/17",
-                "D. 7 × √(17)/17"
+                "A. 7√17",
+                "B. 7/17",
+                "C. √17/7",
+                "D. 7√17/17"
               ],
               "answer": 3,
               "explanation": "Multiply by √17/√17; the denominator becomes 17, giving 7√17/17.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "6. For nonzero z, simplify z⁶ × z⁸/z⁴.",
               "options": [
-                "A. z¹⁰",
-                "B. z⁴⁴",
-                "C. z¹⁸",
-                "D. z¹⁴"
+                "A. z¹⁸",
+                "B. z¹⁴",
+                "C. z¹⁰",
+                "D. z⁴⁴"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "Add indices when multiplying, then subtract when dividing: 6 + 8 − 4 = 10.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "7. Expand (x + 5)(x − 9).",
               "options": [
-                "A. x² + 14 × x − 45",
-                "B. x² − 4 × x − 45",
-                "C. x² − 4 × x + 45",
+                "A. x² − 4x + 45",
+                "B. x² − 4x − 45",
+                "C. x² + 14x − 45",
                 "D. x² − 45"
               ],
               "answer": 1,
-              "explanation": "x² − 9x + 5x − 45 = x² − 4 × x − 45.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "explanation": "x² − 9x + 5x − 45 = x² − 4x − 45.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "8. Which expression equals x² − 144?",
               "options": [
-                "A. (x − 12)²",
+                "A. x(x − 144)",
                 "B. (x − 144)(x + 144)",
-                "C. (x − 12)(x + 12)",
-                "D. x(x − 144)"
+                "C. (x − 12)²",
+                "D. (x − 12)(x + 12)"
               ],
-              "answer": 2,
+              "answer": 3,
               "explanation": "This is a difference of squares: x² − 12² = (x − 12)(x + 12).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "9. What is the complete solution set of x² − 16x + 60 = 0?",
               "options": [
-                "A. {−6, −10}",
+                "A. {6, 10}",
                 "B. {16, 60}",
                 "C. {6 only}",
-                "D. {6, 10}"
+                "D. {−6, −10}"
               ],
-              "answer": 3,
+              "answer": 0,
               "explanation": "Factorise as (x − 6)(x − 10) = 0. Both factors can be zero, so x = 6 or 10.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
-              "prompt": "10. Solve 2⁽²ˣ⁾ = 1024.",
+              "prompt": "10. Solve 2²ˣ = 1024.",
               "options": [
-                "A. 5",
-                "B. 10",
+                "A. 10",
+                "B. 5",
                 "C. 20",
                 "D. 4"
               ],
-              "answer": 0,
+              "answer": 1,
               "explanation": "1024 = 2¹⁰, so 2x = 10, giving x = 10/2.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "11. A parabola has turning point (6, −9) and one x-intercept at (16, 0). What is the x-coordinate of the other x-intercept?",
               "options": [
-                "A. −16",
-                "B. −4",
+                "A. 22",
+                "B. −16",
                 "C. 10",
-                "D. 22"
+                "D. −4"
               ],
-              "answer": 1,
+              "answer": 3,
               "explanation": "The axis is x = 6. Equal distances on either side give the other intercept x = 2 × 6 − 16 = −4.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
-              "prompt": "12. How many distinct real solutions does x² + 7x + 49 = 0 have?",
+              "prompt": "12. How many distinct real solutions does x² + 9x + 14 = 0 have?",
               "options": [
-                "A. 1 distinct real solutions",
+                "A. 1 distinct real solution",
                 "B. 2 distinct real solutions",
                 "C. 0 distinct real solutions",
                 "D. 3 distinct real solutions"
               ],
-              "answer": 2,
-              "explanation": "The discriminant is 7² − 4 × 49 = −147 < 0, so there are no real solutions.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 1,
+              "explanation": "The discriminant is 9² − 4(14) = 25 > 0, so there are 2 distinct real solutions.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "13. A parabola has x-intercepts (−5, 0), (9, 0) and passes through (0, −180). Which is its equation?",
               "options": [
-                "A. y = −4 × x² + 16 × x + 180",
-                "B. y = x² − 4 × x − 45",
-                "C. y = 4 × x² + 16 × x − 180",
-                "D. y = 4 × x² − 16 × x − 180"
+                "A. y = 4x² − 16x − 180",
+                "B. y = x² − 4x − 45",
+                "C. y = −4x² + 16x + 180",
+                "D. y = 4x² + 16x − 180"
               ],
-              "answer": 3,
-              "explanation": "y = a(x − (−5))(x − 9). Substitute (0, −180): −180 = a × −45, so a = 4.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "answer": 0,
+              "explanation": "y = a(x − (−5))(x − 9). Substitute (0, −180): −180 = −45a, so a = 4.",
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "14. What is the x-coordinate of the turning point of y = (x − 9)² + 11?",
               "options": [
-                "A. 9",
-                "B. −9",
-                "C. 11",
-                "D. −11"
+                "A. 11",
+                "B. −11",
+                "C. 9",
+                "D. −9"
               ],
-              "answer": 0,
+              "answer": 2,
               "explanation": "Vertex form is y = (x − h)² + k, with turning point (h, k) = (9, 11).",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 1
             },
             {
               "type": "multiple-choice",
               "prompt": "15. Calculate (20 × 10⁷)/(4 × 10⁵). Which value is correct?",
               "options": [
-                "A. 5",
+                "A. 50000",
                 "B. 500",
-                "C. 50000",
-                "D. 5000"
+                "C. 5000",
+                "D. 5"
               ],
               "answer": 1,
-              "explanation": "Divide coefficients and subtract exponents: (20/4) × 10⁽⁷ ⁻ ⁵⁾ = 500.",
-              "marks": 1,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "explanation": "Divide coefficients and subtract exponents: (20/4) × 10⁷⁻⁵ = 500.",
+              "marks": 1
             }
           ]
         },
@@ -1136,71 +1041,61 @@
               "type": "short-answer",
               "prompt": "1(a) A rectangular display platform measures 14 m by 9 m. A border of uniform width x metres is added outside all four sides. Derive a simplified formula for the area A of the border only.",
               "modelAnswer": "The outer dimensions are (14 + 2x) m and (9 + 2x) m. Subtract the original area: A = (14 + 2x)(9 + 2x) − 126 = 4x² + 46x.\nFinal answer: A = 4x² + 46x m²",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "1(b) A rectangular display platform measures 14 m by 9 m. A border of uniform width x metres is added outside all four sides. The border area must not exceed 248 m². Find the valid interval for x, allowing x = 0, and justify both bounds.",
               "modelAnswer": "As x is a width, x ≥ 0. The area condition is 4x² + 46x ≤ 248, so 4(x − 4)(x + 31/2) ≤ 0. The quadratic opens upward, so its algebraic interval lies between the roots −31/2 and 4. Intersect with x ≥ 0.\nFinal answer: 0 ≤ x ≤ 4 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "1(c) A rectangular display platform measures 14 m by 9 m. A border of uniform width x metres is added outside all four sides. Find the border width if its area is 174 m². Reject any invalid solution.",
               "modelAnswer": "4x² + 46x = 174, so 4(x − 3)(x + 29/2) = 0. Hence x = 3 or x = −29/2. A negative width is impossible, so only the positive solution is valid.\nFinal answer: x = 3 m",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(a) A research boat travels from base A 57 km due east to B, then 92 km on bearing 150° to C. Treat the terrain as a horizontal plane. Find how far east and how far south C is from A, both to 2 decimal places.",
               "modelAnswer": "The second leg has east component 92 sin 150° and north component 92 cos 150°. Thus total east = 57 + 92 sin 150° = 103.00000000… km. Total south = −92 cos 150° = 79.67433715… km.\nFinal answer: east 103.00 km; south 79.67 km",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
               "prompt": "2(b) A research boat travels from base A 57 km due east to B, then 92 km on bearing 150° to C. Treat the terrain as a horizontal plane. Find the bearing of C from A, to the nearest whole degree.",
               "modelAnswer": "Using unrounded components E = 103.00000000… and S = 79.67433715…, C is southeast of A. The angle east of south is tan⁻¹(E/S) = 52.27671307…°. The true bearing is 180° − 52.27671307…° = 127.72328693…°.\nFinal answer: 128°",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "2(c) A research boat travels from base A 57 km due east to B, then 92 km on bearing 150° to C. Treat the terrain as a horizontal plane. It returns directly from C to A at 110 km/h. Find the direct distance to 2 decimal places and return time to the nearest minute.",
               "modelAnswer": "Using unrounded components, AC = √(E² + S²) = 130.21904623… km. Time = distance/speed = 130.21904623…/110 hours. Multiply by 60 to obtain 71.02857067… minutes; round only at the end.\nFinal answer: 130.22 km; 71 minutes",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             },
             {
               "type": "short-answer",
-              "prompt": "3(a) A parabola crosses the x-axis at (−7, 0) and (13, 0), and passes through (0, −364). Find its equation in expanded form.",
-              "modelAnswer": "Use y = a(x − (−7))(x − 13). At x = 0, −364 = a × −91, so a = 4. Therefore y = 4(x + 7)(x − 13). Expanding gives 4 × x² − 24 × x − 364.\nFinal answer: y = 4 × x² − 24 × x − 364",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "3(a) A laboratory culture starts with 720 cells and grows by 25% every hour. Write a model N(t) for its population after t hours, assuming exponential growth. Estimate the population after 4 hours, to the nearest whole cell.",
+              "modelAnswer": "An increase of 25% multiplies the population by 1 + 25/100 = 1.25 each hour. Therefore N(t) = 720(1.25)ᵗ. At t = 4, N(4) = 720(1.25)⁴ = 1757.8125. Round to a whole number of cells.\nFinal answer: N(t) = 720(1.25)ᵗ; 1758 cells",
+              "marks": 2
             },
             {
               "type": "short-answer",
-              "prompt": "3(b) For y = 4 × x² − 24 × x − 364, find the turning point, axis of symmetry and whether the turning point is a maximum or minimum.",
-              "modelAnswer": "The roots are −7 and 13, so the axis is midway between them: x = (−7 + 13)/2 = 3. Substitute x = 3: y = 4(10)(−10) = −400. Since the coefficient 4 of x² is positive, the parabola opens upward.\nFinal answer: turning point (3, −400); axis x = 3; minimum",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "3(b) The model for a culture is N(t) = 720(1.25)ᵗ, where t is measured in hours. According to the continuous model, when will it first reach 3600 cells? Give the time to 2 decimal places.",
+              "modelAnswer": "Set 720(1.25)ᵗ = 3600 and divide by 720: 1.25ᵗ = 5. Taking logarithms, t log(1.25) = log 5, so t = log 5/log(1.25) = 7.212567… hours. Since 1.25 > 1, the model increases, so this is the first time the population reaches 3600.\nFinal answer: 7.21 hours",
+              "marks": 3
             },
             {
               "type": "short-answer",
-              "prompt": "4 The inside of a rectangular equipment case is a rectangular prism 9 cm long, 16 cm wide and 19 cm high. What is the maximum length of a straight rigid rod that fits fully inside, to 2 decimal places? Ignore the rod’s thickness.",
-              "modelAnswer": "The floor diagonal has square 9² + 16² = 337. Apply Pythagoras again with height 19: d² = 337 + 19² = 698. The longest rod lies along a space diagonal, so d = √698 = 26.41968963… cm.\nFinal answer: 26.42 cm",
-              "marks": 2,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "prompt": "4 A rectangular crate has internal length 18 cm and width 22 cm. Its longest internal diagonal is 31 cm. Find its internal height to 2 decimal places.",
+              "modelAnswer": "For a rectangular prism, d² = l² + w² + h². Hence h² = 31² − 18² − 22² = 961 − 324 − 484 = 153. A height is positive, so h = √153 = 3√17 = 12.369316… cm.\nFinal answer: 12.37 cm",
+              "marks": 2
             },
             {
               "type": "short-answer",
               "prompt": "5 An observer on an observation tower, 68 m vertically above level ground, sees a marker at an angle of depression of 41°. Find both the horizontal ground distance to the marker and the straight line-of-sight distance, to 2 decimal places. Ignore eye-height adjustments.",
               "modelAnswer": "The angle of elevation from the marker equals 41° because the horizontals are parallel. For ground distance d, tan 41° = 68/d, so d = 68/tan 41° = 78.22505169… m. For line-of-sight distance s, sin 41° = 68/s, so s = 68/sin 41° = 103.64920990… m.\nFinal answer: ground 78.23 m; line of sight 103.65 m",
-              "marks": 3,
-              "source": "Written for practice, modelled on 2023–2025 Year 9 Enrichment Semester 2 tech-active exams (structure, topics and marks)"
+              "marks": 3
             }
           ]
         }

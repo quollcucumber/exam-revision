@@ -32,7 +32,7 @@ for name in ("geography", "english", "maths", "chinese"):
             if section.get("choose") == 1:
                 assert len({q["marks"] for q in section["questions"]}) == 1
             for question in section["questions"]:
-                assert question["source"] and question["marks"] > 0
+                assert (question.get("source") or exam["source"]) and question["marks"] > 0
                 if question["type"] == "multiple-choice":
                     assert 0 <= question["answer"] < len(question["options"])
                 else:
@@ -139,6 +139,7 @@ with sync_playwright() as p:
                 for s in exam["sections"]] == [20, 15, 25]
         assert len(exam["sections"][1]["questions"]) == 15
         assert exam["durationMinutes"] == 70
+        assert all("source" not in q for s in exam["sections"] for q in s["questions"])
         page.select_option("#exam-picker", str(i))
         assert page.locator("#practice .question").count() == 35
         assert "Self-mark total: 0 / 60" in page.inner_text("#practice")
