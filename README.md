@@ -21,6 +21,9 @@ List 1 contains 478 rows (474 unique Chinese entries); list 2 contains 672.
 There is no overlap between the lists. Repeated entries within list 1 are retained in their source categories.
 
 Geography, English, Maths and Chinese Unit 1 now use the supplied school files.
+English prepares for one Antigone essay and one ad analysis: drill the complete
+quote/comment sheet, then write paragraphs and self-mark using source-bank reveals.
+Its only teaching sources are `Antigone Quotes.pdf` and `english.odt.txt`.
 Each note, flashcard and practice paper names its source. See `SOURCES.md` for
 coverage gaps and adaptations. The old food-security pack has a readable,
 source-checked abridgement at `geography/food-security.html`.

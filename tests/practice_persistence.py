@@ -12,11 +12,11 @@ with sync_playwright() as p:
     page = browser.new_page()
     page.goto(BASE + '/english/')
     page.locator('textarea').first.wait_for()
-    page.evaluate("localStorage.setItem('english-exam-quote-recall', JSON.stringify({marks:{'0-0':0.5},choices:{}}))")
+    page.evaluate("localStorage.setItem('english-exam-antigone-writing', JSON.stringify({marks:{'creon-women':0.5},choices:{}}))")
     page.reload()
     mark = page.locator('input[type=number]').first
     assert mark.input_value() == '0'
-    for value, expected in [('0.5', '0'), ('999', '1'), ('-1', '0'), ('', '0')]:
+    for value, expected in [('0.5', '0'), ('999', '4'), ('-1', '0'), ('', '0')]:
         mark.fill(value)
         assert mark.input_value() == expected
     answer = page.locator('textarea').first
@@ -57,6 +57,6 @@ with sync_playwright() as p:
     page.goto(BASE + '/english/')
     page.locator('textarea').first.fill('Still usable')
     page.locator('input[type=number]').first.fill('1')
-    assert 'Self-mark total: 1 / 8' in page.inner_text('#practice')
+    assert 'Self-mark total: 1 / 16' in page.inner_text('#practice')
     print('PASS: unavailable storage does not prevent answering or self-marking')
     browser.close()
