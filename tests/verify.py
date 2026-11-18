@@ -10,6 +10,7 @@ import shutil
 import urllib.request
 
 from playwright.sync_api import sync_playwright
+from review import run_review
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get("REVISION_URL", "http://localhost:8080")
@@ -168,4 +169,5 @@ with sync_playwright() as p:
     print("PASS: 390px screenshots, no horizontal overflow")
     print(SHOTS / "geography-practice-390.png")
     print(SHOTS / "maths-hub-390.png")
+    run_review(browser, BASE)
     browser.close()
