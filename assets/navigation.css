@@ -55,7 +55,7 @@
 
   .site-nav-links a {
     flex: 1 0 auto;
-    padding-inline: .25rem;
+    padding-inline: 0;
   }
 }
 

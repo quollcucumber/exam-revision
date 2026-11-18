@@ -41,7 +41,9 @@ with sync_playwright() as p:
                 assert link.evaluate("(link) => link.pathname") == route
                 bounds = link.bounding_box()
                 assert bounds["width"] >= 44 and bounds["height"] >= 44
-                assert bounds["x"] >= 0 and bounds["x"] + bounds["width"] <= width
+                assert bounds["x"] >= 0 and bounds["x"] + bounds["width"] <= width, (
+                    width, path, subject, bounds
+                )
 
         page.goto(BASE + "/geography/")
         page.get_by_role("link", name="Practice exam", exact=True).tap()
