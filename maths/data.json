@@ -1,15 +1,15 @@
 {
-  "introduction": "Your textbook topic checklist and selected Gauss notes and worked examples. The saved textbook file contains only its viewer/contents, so exercise practice comes from the actual Gauss PDF, with its supplied solutions.",
+  "introduction": "Start with the textbook topic checklist to see what each chapter covers. The Gauss notes are enrichment notes. Practice paper 1 contains the Gauss worked examples; their answers are also in the Notes, so try them before reading the notes. Practice paper 2 contains Gauss exercises with the book’s fully worked solutions.",
   "notes": [
     {
       "heading": "Year 9 textbook — Topic checklist",
-      "body": "Reviewing number and financial mathematics\n1A Integer operations\n1B Decimal places and significant figures\n1C Rational numbers\n1D Operations with fractions\n1E Ratios, rates and best buys\n1F Percentages and money\n1G Percentage increase and decrease\nProgress quiz\n1H Profits and discounts\n1I Income\n1J The PAYG income tax system\nApplications and problem-solving\n1K Simple interest\n1L Compound interest and depreciation\n1M Using a formula for compound interest and\n depreciation\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nExpressions and linear equations\n2A Algebraic expressions\n2B Simplifying algebraic expressions\n2C Expanding algebraic expressions\n2D Solving linear equations with pronumerals on one side\n2E Solving equations with brackets and pronumerals on\n both sides\n2F Solving word problems\nProgress quiz\n2G Solving linear inequalities\n2H Using formulas\n2I Simultaneous equations using substitution\nApplications and problem-solving\n2J Simultaneous equations using elimination\n2K Applications of simultaneous equations\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nPythagoras’ theorem and trigonometry\n3A Pythagoras’ theorem\n3B Finding the length of the shorter sides\n3C Using Pythagoras’ theorem to solve two-dimensional\n problems\n3D Using Pythagoras’ theorem to solve three-dimensional\n problems\n3E Trigonometric ratios\n3F Finding unknown side lengths\nProgress quiz\n3G Solving for the denominator\n3H Finding unknown angles\nApplications and problem-solving\n3I Applying trigonometry\n3J Bearings\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nLinear relationships\n4A Introduction to linear relationships\n4B Graphing straight lines using intercepts\n4C Lines with one intercept\n4D Gradient\n4E Gradient and direct proportion\n4F Gradient–intercept form\nProgress quiz\n4G Finding the equation of a line\n4H Midpoint and length of a line segment\n4I Parallel and perpendicular lines\nApplications and problem-solving\n4J Linear modelling\n4K Graphical solutions to simultaneous equations\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nMeasurement\n5A Errors and accuracy in measurement\n5B Length and perimeter\n5C Circle circumference and perimeter of a sector\n5D Area\n5E Perimeter and area of composite shapes\nProgress quiz\n5F Surface area of prisms and pyramids\n5G Surface area of cylinders\nApplications and problem-solving\n5H Volume of prisms\n5I Volume of cylinders\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nSemester review 1\nIndices and surds\n6A Index notation\n6B Index laws for multiplication and division\n6C Index laws for power of a power and the zero index\n6D Index laws for brackets and fractions\n6E Negative indices\nProgress quiz\n6F Scientific notation\n6G Scientific notation using significant figures\nApplications and problem-solving\n6H Fractional indices and surds\n6I Simple operations with surds\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nGeometry\n7A Angles and triangles\n7B Parallel lines\n7C Quadrilaterals and other polygons\n7D Congruent triangles\n7E Using congruence in proof\nProgress quiz\n7F Enlargement and similar figures\nApplications and problem-solving\n7G Similar triangles\n7H Proving and applying similar triangles\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nAlgebraic techniques\n8A Expanding binomial products\n8B Perfect squares and difference of two squares\n8C Factorising algebraic expressions\n8D Factorising the difference of two squares\n8E Factorising by grouping in pairs\n8F Factorising monic quadratic trinomials\nProgress quiz\n8G Factorising trinomials of the form\n a x 2 + bx + c\n8H Simplifying algebraic fractions:\n Multiplication and division\n8I Simplifying algebraic fractions:\n Addition and subtraction\nApplications and problem-solving\n8J Further simplification of algebraic\n fractions\n8K Equations with algebraic fractions\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nProbability and statistics\n9A Review of probability\n9B Venn diagrams and two-way tables\n9C Using set notation\n9D Using arrays for two-step experiments\n9E Using tree diagrams\n9F Using relative frequencies to estimate probabilities\nProgress quiz\n9G Data and sampling\n9H Mean, median and mode\n9I Stem-and-leaf plots\nApplications and problem-solving\n9J Grouping data into classes\n9K Measures of spread: range and interquartile range\n9L Box plots\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\nIntroduction to quadratic equations and graphs\n10A Quadratic equations\n10B Solving a x 2 + bx = 0 and x 2 = d\n10C Solving x 2 + bx + c = 0\n10D Using quadratic equations\n to solve problems\nProgress quiz\n10E The parabola\n10F Sketching y = a x 2 with dilations and reflections\nApplications and problem-solving\n10G Sketching translations of y = x 2\n10H Sketching parabolas using intercept form\nModelling\nTechnology and computational thinking\nInvestigation\nProblems and challenges\nChapter summary\nChapter checklist with success criteria\nChapter review\n",
+      "body": "Chapter 1 — Reviewing number and financial mathematics\n- 1A Integer operations\n- 1B Decimal places and significant figures\n- 1C Rational numbers\n- 1D Operations with fractions\n- 1E Ratios, rates and best buys\n- 1F Percentages and money\n- 1G Percentage increase and decrease\n- 1H Profits and discounts\n- 1I Income\n- 1J The PAYG income tax system\n- 1K Simple interest\n- 1L Compound interest and depreciation\n- 1M Using a formula for compound interest and depreciation\nChapter 2 — Expressions and linear equations\n- 2A Algebraic expressions\n- 2B Simplifying algebraic expressions\n- 2C Expanding algebraic expressions\n- 2D Solving linear equations with pronumerals on one side\n- 2E Solving equations with brackets and pronumerals on both sides\n- 2F Solving word problems\n- 2G Solving linear inequalities\n- 2H Using formulas\n- 2I Simultaneous equations using substitution\n- 2J Simultaneous equations using elimination\n- 2K Applications of simultaneous equations\nChapter 3 — Pythagoras’ theorem and trigonometry\n- 3A Pythagoras’ theorem\n- 3B Finding the length of the shorter sides\n- 3C Using Pythagoras’ theorem to solve two-dimensional problems\n- 3D Using Pythagoras’ theorem to solve three-dimensional problems\n- 3E Trigonometric ratios\n- 3F Finding unknown side lengths\n- 3G Solving for the denominator\n- 3H Finding unknown angles\n- 3I Applying trigonometry\n- 3J Bearings\nChapter 4 — Linear relationships\n- 4A Introduction to linear relationships\n- 4B Graphing straight lines using intercepts\n- 4C Lines with one intercept\n- 4D Gradient\n- 4E Gradient and direct proportion\n- 4F Gradient–intercept form\n- 4G Finding the equation of a line\n- 4H Midpoint and length of a line segment\n- 4I Parallel and perpendicular lines\n- 4J Linear modelling\n- 4K Graphical solutions to simultaneous equations\nChapter 5 — Measurement\n- 5A Errors and accuracy in measurement\n- 5B Length and perimeter\n- 5C Circle circumference and perimeter of a sector\n- 5D Area\n- 5E Perimeter and area of composite shapes\n- 5F Surface area of prisms and pyramids\n- 5G Surface area of cylinders\n- 5H Volume of prisms\n- 5I Volume of cylinders\nChapter 6 — Indices and surds\n- 6A Index notation\n- 6B Index laws for multiplication and division\n- 6C Index laws for power of a power and the zero index\n- 6D Index laws for brackets and fractions\n- 6E Negative indices\n- 6F Scientific notation\n- 6G Scientific notation using significant figures\n- 6H Fractional indices and surds\n- 6I Simple operations with surds\nChapter 7 — Geometry\n- 7A Angles and triangles\n- 7B Parallel lines\n- 7C Quadrilaterals and other polygons\n- 7D Congruent triangles\n- 7E Using congruence in proof\n- 7F Enlargement and similar figures\n- 7G Similar triangles\n- 7H Proving and applying similar triangles\nChapter 8 — Algebraic techniques\n- 8A Expanding binomial products\n- 8B Perfect squares and difference of two squares\n- 8C Factorising algebraic expressions\n- 8D Factorising the difference of two squares\n- 8E Factorising by grouping in pairs\n- 8F Factorising monic quadratic trinomials\n- 8G Factorising trinomials of the form ax² + bx + c\n- 8H Simplifying algebraic fractions: Multiplication and division\n- 8I Simplifying algebraic fractions: Addition and subtraction\n- 8J Further simplification of algebraic fractions\n- 8K Equations with algebraic fractions\nChapter 9 — Probability and statistics\n- 9A Review of probability\n- 9B Venn diagrams and two-way tables\n- 9C Using set notation\n- 9D Using arrays for two-step experiments\n- 9E Using tree diagrams\n- 9F Using relative frequencies to estimate probabilities\n- 9G Data and sampling\n- 9H Mean, median and mode\n- 9I Stem-and-leaf plots\n- 9J Grouping data into classes\n- 9K Measures of spread: range and interquartile range\n- 9L Box plots\nChapter 10 — Introduction to quadratic equations and graphs\n- 10A Quadratic equations\n- 10B Solving ax² + bx = 0 and x² = d\n- 10C Solving x² + bx + c = 0\n- 10D Using quadratic equations to solve problems\n- 10E The parabola\n- 10F Sketching y = ax² with dilations and reflections\n- 10G Sketching translations of y = x²\n- 10H Sketching parabolas using intercept form",
       "source": "year9mathbook.pdf (saved HTML contents)",
       "caution": "The supplied file is an HTML viewer with a contents list. It does not contain readable textbook worked examples, exercises or answers. Only the actual topic headings are included; no textbook questions have been invented."
     },
     {
       "heading": "Gauss — Arithmetic sequences and series",
-      "body": "An arithmetic sequence is an ordered list of numbers that increase by the same fixed amount, called the common difference.\nWith first term a and common difference d: tₙ = a + (n − 1)d.\nThe sum of the first n terms is Sₙ = n/2 × (2a + (n − 1)d).\nExample 1: {1, 4, 7, 10, …}; a = 1, d = 3; t₁₀₀ = 1 + 99 × 3 = 298.\nExample 2: t₈ = 50 and t₂₀ = 14. Subtracting a + 7d = 50 and a + 19d = 14 gives 12d = −36, d = −3, a = 71.\nExample 3: {13, 7, 1, −5, …}; S₄₉ = 49/2 × (2 × 13 + 48 × (−6)) = −6419.",
+      "body": "An arithmetic sequence is an ordered list of numbers that increase by the same fixed amount, called the common difference.\nThe common difference can be negative: {13, 7, 1, −5, …} has d = −6, so the “increase” is negative.\nWith first term a and common difference d: tₙ = a + (n − 1)d.\nThe sum of the first n terms is Sₙ = n/2 × (2a + (n − 1)d).\nExample 1: {1, 4, 7, 10, …}; a = 1, d = 3; t₁₀₀ = 1 + 99 × 3 = 298.\nExample 2: t₈ = 50 and t₂₀ = 14. Subtracting a + 7d = 50 and a + 19d = 14 gives 12d = −36, d = −3, a = 71.\nExample 3: {13, 7, 1, −5, …}; S₄₉ = 49/2 × (2 × 13 + 48 × (−6)) = −6419.",
       "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.1–2"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "heading": "Gauss — Prime decomposition and counting factors",
-      "body": "Every integer greater than 1 is either a prime or a product of two or more primes; the prime decomposition is unique apart from order.\nFor distinct primes p, q, …, r: d(pᵃqᵇ…rᶜ) = (a + 1)(b + 1)…(c + 1).\n360 = 2³ × 3² × 5, so d(360) = 4 × 3 × 2 = 24.\nExample 1: 32 = 2⁵, giving 6 factors. 75 = 3 × 5², giving 2 × 3 = 6 factors.\nExample 2: The two-digit numbers with exactly 12 factors are 60, 72, 84, 90 and 96.",
+      "body": "Every integer greater than 1 is either a prime or a product of two or more primes; the prime decomposition is unique apart from order.\nFor distinct primes p, q, …, r: d(pᵃqᵇ…rᶜ) = (a + 1)(b + 1)…(c + 1).\n360 = 2³ × 3² × 5, so d(360) = 4 × 3 × 2 = 24.\nExample 1: 32 = 2⁵, giving 6 factors. 75 = 3 × 5², giving 2 × 3 = 6 factors.\nExample 2: Find all two-digit numbers with exactly 12 factors.\nFor distinct primes p, q and r, the cases are:\nFactorisation of 12 | Form of n | Two-digit answers\n12 | p¹¹ | Smallest is 2¹¹ = 2048, too big.\n2 × 6 | p¹q⁵ | 3¹ × 2⁵ = 96\n3 × 4 | p²q³ | 3² × 2³ = 72\n2 × 2 × 3 | p¹q¹r² | 3 × 5 × 2² = 60; 3 × 7 × 2² = 84; 2 × 5 × 3² = 90\nThus the numbers are 60, 72, 84, 90 and 96.",
       "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.19–21"
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "heading": "Gauss — Pythagoras’ theorem",
-      "body": "For triangle ABC with opposite sides a, b and c: a² + b² = c² if and only if angle C is a right angle.\nThe longest side of a right-angled triangle is called the hypotenuse.\nExample 2: Sides 5, 12 and 13. Since 5² + 12² = 25 + 144 = 169 = 13², the angle opposite the side of length 13 is a right angle. The largest angle is 90°.",
+      "body": "For triangle ABC with opposite sides a, b and c: a² + b² = c² if and only if angle C is a right angle.\nThe longest side of a right-angled triangle is called the hypotenuse.\nExample 2: Sides 5, 12 and 13. Since 5² + 12² = 25 + 144 = 169 = 13², the angle opposite the side of length 13 is a right angle. The largest angle is 90°.\nFor sides a, b and c opposite angles A, B and C: a² + b² > c² if and only if angle C is acute; a² + b² = c² if and only if angle C is right; a² + b² < c² if and only if angle C is obtuse.\nExample 3: Explain why a triangle with sides 6, 7 and 8 must be acute-angled. Since 6² + 7² > 8², 7² + 8² > 6² and 6² + 8² > 7², each angle is acute.",
       "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.69–70"
     }
   ],
@@ -37,7 +37,7 @@
     {
       "id": "gauss-0",
       "term": "Arithmetic sequence",
-      "definition": "An ordered list of numbers that increase by the same fixed amount, called the common difference.",
+      "definition": "An ordered list of numbers that increase by the same fixed amount, called the common difference. The common difference can be negative: {13, 7, 1, −5, …} has d = −6, so the “increase” is negative.",
       "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.1–2"
     },
     {
@@ -86,10 +86,10 @@
   "exams": [
     {
       "id": "gauss-examples",
-      "title": "Gauss — Worked-example practice",
+      "title": "Gauss — Worked examples (Practice paper 1)",
       "durationMinutes": 30,
       "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.1–3, 21, 35, 70",
-      "instructions": "Questions and solutions are taken from the named worked examples, not invented exercises. Marks and optional time are author-assigned for self-practice; they are not an exam prediction.",
+      "instructions": "These questions are Gauss worked examples. The worked solutions also appear in the Notes, so attempt each question before reading them. Marks (2–3 per question) and time are author-assigned for self-practice, not an exam prediction.",
       "sections": [
         {
           "title": "Source worked examples",
@@ -146,7 +146,7 @@
             {
               "type": "short-answer",
               "prompt": "Gauss p.21, Example 2. Find all two-digit numbers with exactly 12 factors.",
-              "modelAnswer": "60, 72, 84, 90 and 96. The source considers exponent combinations from factorisations 12; 2 × 6; 3 × 4; 2 × 2 × 3.",
+              "modelAnswer": "For distinct primes p, q and r, the cases are:\nFactorisation of 12 | Form of n | Two-digit answers\n12 | p¹¹ | Smallest is 2¹¹ = 2048, too big.\n2 × 6 | p¹q⁵ | 3¹ × 2⁵ = 96\n3 × 4 | p²q³ | 3² × 2³ = 72\n2 × 2 × 3 | p¹q¹r² | 3 × 5 × 2² = 60; 3 × 7 × 2² = 84; 2 × 5 × 3² = 90\nThus the numbers are 60, 72, 84, 90 and 96.",
               "marks": 3,
               "source": "2026 Maths Enrichment Gauss Student Notes.pdf p.21"
             },
@@ -170,6 +170,161 @@
               "modelAnswer": "5² + 12² = 25 + 144 = 169 = 13². There is a right angle opposite the side of length 13. The largest angle is 90°.",
               "marks": 2,
               "source": "2026 Maths Enrichment Gauss Student Notes.pdf p.70"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Gauss p.70, Example 3. Explain why a triangle with sides 6, 7 and 8 must be acute-angled.",
+              "modelAnswer": "Since 6² + 7² > 8², 7² + 8² > 6² and 6² + 8² > 7², each angle is acute.",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf p.70"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gauss-exercises",
+      "title": "Gauss — Exercises with worked solutions",
+      "durationMinutes": 60,
+      "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.2, 4, 21, 36, 71, 88–89, 97, 104, 122",
+      "instructions": "Questions and worked solutions are from the Gauss exercises and Chapter Solutions. Marks (2–4 per question) and time are author-assigned for self-practice.",
+      "sections": [
+        {
+          "title": "Sequences",
+          "questions": [
+            {
+              "type": "short-answer",
+              "prompt": "Find the sum of the first 25 terms of an arithmetic sequence with 20th term 20 and 30th term 40.",
+              "modelAnswer": "20 = t₂₀ = a + 19d and 40 = t₃₀ = a + 29d. Subtracting, 10d = 20 so d = 2. Then a = 20 − 19 × 2 = −18, and S₂₅ = 25/2 × (2 × (−18) + 24 × 2) = 150.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.2, 88"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "The sum of the first 10 terms of an arithmetic sequence is 100. The sum of the next 10 terms is 200. Identify the sequence.",
+              "modelAnswer": "S₁₀ = 100 and S₂₀ = 100 + 200 = 300. So 10/2 × (2a + 9d) = 100 gives 2a + 9d = 20, and 20/2 × (2a + 19d) = 300 gives 2a + 19d = 30. Then 10d = 10, so d = 1 and a = (20 − 9) ÷ 2 = 5.5. Thus the sequence is {5.5, 6.5, 7.5, 8.5, …}.",
+              "marks": 4,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.2, 88"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Find the 17th term of the geometric sequence {0.75, 3, 12, …}.",
+              "modelAnswer": "a = 3/4 and r = 12 ÷ 3 = 4, so t₁₇ = 3/4 × 4¹⁶ = 3 221 225 472.",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.4, 89"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Find all possible values of the first term of a geometric sequence, given t₃ = 500 and t₇ = 312 500.",
+              "modelAnswer": "r⁴ = t₇ ÷ t₃ = 312 500 ÷ 500 = 625, so r = 5 or r = −5 (since the index is even). For either value, a = t₃ ÷ r² = 500 ÷ 25 = 20. There are two different geometric sequences, with the same first term.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.4, 89"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "The population of a species increases by 5% each year. How many years will it take for the population to be at least double its original size?",
+              "modelAnswer": "After n years, the population increases by a factor of 1.05ⁿ. We need the least n for which this factor is at least 2. By guess-and-check, 1.05¹⁴ ≈ 1.98 and 1.05¹⁵ ≈ 2.08. So it will take 15 years.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.4, 89"
+            }
+          ]
+        },
+        {
+          "title": "Prime decomposition",
+          "questions": [
+            {
+              "type": "short-answer",
+              "prompt": "How many factors does 5² × 9³ × 13⁴ have?",
+              "modelAnswer": "9 is not prime, so write 9³ as (3²)³ = 3⁶. Then d(3⁶ × 5² × 13⁴) = (6 + 1) × (2 + 1) × (4 + 1) = 7 × 3 × 5 = 105.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.21, 97"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Which number has more factors: 3 million or 4 million?",
+              "modelAnswer": "1 000 000 = 10⁶ = (2 × 5)⁶ = 2⁶ × 5⁶. Therefore d(3 000 000) = d(2⁶ × 3¹ × 5⁶) = 7 × 2 × 7 = 98, and d(4 000 000) = d(2⁸ × 5⁶) = 9 × 7 = 63. So 3 million has more factors than 4 million.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.21, 97"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Find the smallest number with exactly 55 factors.",
+              "modelAnswer": "A number with 55 factors has the form p⁵⁴ or p⁴q¹⁰. The number 2⁵⁴ has 17 digits. For the other form, letting p = 3 and q = 2 gives 3⁴ × 2¹⁰ = 82 944, which is considerably smaller!",
+              "marks": 4,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.21, 97"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "An even number has exactly 27 factors, one of which is 117. Find the number.",
+              "modelAnswer": "The number is even, so 2 is one prime factor. Also, 117 = 9 × 13 = 3² × 13, so 3 and 13 are another two prime factors. A number with 27 factors has the form p²⁶, p²q⁸ or p²q²r². Rule out the first two because there are at least three prime factors. So the number is 2² × 3² × 13² = 6084.",
+              "marks": 4,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.21, 97"
+            }
+          ]
+        },
+        {
+          "title": "Expanding and factorising",
+          "questions": [
+            {
+              "type": "short-answer",
+              "prompt": "Expand and simplify each of the following.\n(a) (x − y)²",
+              "modelAnswer": "(x − y)² = (x − y)(x − y) = x² − xy − yx + y² = x² − 2xy + y².",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.36, 104"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Expand and simplify each of the following.\n(b) (2x + 1)(x + 4)",
+              "modelAnswer": "(2x + 1)(x + 4) = 2x² + 8x + x + 4 = 2x² + 9x + 4.",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.36, 104"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Expand and simplify each of the following.\n(c) (x − 3)(−4x + 7y − 3)",
+              "modelAnswer": "(x − 3)(−4x + 7y − 3) = −4x² + 7xy − 3x + 12x − 21y + 9 = −4x² + 7xy + 9x − 21y + 9.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.36, 104"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Factorise the following by grouping in pairs, or similar.\n(a) xy + 2x + 2y + 4",
+              "modelAnswer": "xy + 2x + 2y + 4 = x(y + 2) + 2(y + 2) = (x + 2)(y + 2).",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.36, 104"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "Factorise the following by grouping in pairs, or similar.\n(b) 6ab² − 3b − 2ab + 1",
+              "modelAnswer": "6ab² − 3b − 2ab + 1 = 3b(2ab − 1) − 1(2ab − 1) = (3b − 1)(2ab − 1).",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.36, 104"
+            }
+          ]
+        },
+        {
+          "title": "Pythagoras",
+          "questions": [
+            {
+              "type": "short-answer",
+              "prompt": "Describe all possible right-angled triangles with one side of length 20 and another side of length 21.",
+              "modelAnswer": "By SSS congruence, specify all three side lengths. If 20 and 21 are the short sides, c² = 20² + 21² = 400 + 441 = 841, so c = √841 = 29. If 21 is the hypotenuse, b² = 21² − 20² = 441 − 400 = 41, so b = √41 (≈ 6.40).",
+              "marks": 4,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.71, 122"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "A triangle has sides of length 23, 31 and 41. What kinds of angles does it have?",
+              "modelAnswer": "Since 23² + 31² = 529 + 961 = 1490 < 1681 = 41², the angle opposite the side of length 41 is obtuse, and the other two angles must be acute.",
+              "marks": 2,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.71, 122"
+            },
+            {
+              "type": "short-answer",
+              "prompt": "An isosceles triangle has base length 6 and area 12. What is its perimeter?",
+              "modelAnswer": "From A = ½bh, 12 = ½ × 6 × h, so h = 4. Split the isosceles triangle into two congruent right-angled triangles with short sides ½b = 3 and h = 4. By Pythagoras’ theorem each hypotenuse is 5. The perimeter is 6 + 2 × 5 = 16.",
+              "marks": 3,
+              "source": "2026 Maths Enrichment Gauss Student Notes.pdf pp.71, 122"
             }
           ]
         }

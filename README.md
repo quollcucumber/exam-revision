@@ -21,6 +21,9 @@ List 1 contains 478 rows (474 unique Chinese entries); list 2 contains 672.
 There is no overlap between the lists. Repeated entries within list 1 are retained in their source categories.
 
 Geography, English, Maths and Chinese Unit 1 now use the supplied school files.
+English prepares for one Antigone essay and one ad analysis: drill the complete
+quote/comment sheet, then write paragraphs and self-mark using source-bank reveals.
+Its only teaching sources are `Antigone Quotes.pdf` and `english.odt.txt`.
 Each note, flashcard and practice paper names its source. See `SOURCES.md` for
 coverage gaps and adaptations. The old food-security pack has a readable,
 source-checked abridgement at `geography/food-security.html`.
@@ -84,11 +87,11 @@ and clamped to each question's maximum in the self-mark total.
 ## Progress and privacy
 
 Known cards, best vocabulary quiz percentages (per list/category/direction),
-and subject exam self-marks are stored only in this browser's localStorage.
+and subject exam self-marks and written answers are stored only in this browser's localStorage.
 Clearing site data resets progress. If storage is unavailable, study still works
-but progress will not persist. Typed exam responses and timer state are not saved.
+but progress will not persist. Timer state is not saved.
 
 ## Original revision guide
 
-`chinese/year9-revision.html` is the supplied file, unchanged except for a small
-home link inserted at the top and a request-changes footer. Its content and voice scripts are intact.
+`chinese/year9-revision.html` is the supplied file with the shared subject
+navigation and a request-changes footer. Its content and voice scripts are intact.
