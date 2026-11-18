@@ -11,7 +11,7 @@ school answer keys. Facts, quotations and mathematical solutions are source-base
 | Paper | Questions attempted | Question bank | Section marks | Total |
 |---|---:|---:|---|---:|
 | Study-guide revision | 13 | 16 (four essays, choose one) | 5 + 29 + 16 | 50 |
-| 2023 text-only test | 11 | 11 | 6 + 14 | 20 |
+| 2023 text-only test | 13 | 13 | 8 + 14 | 22 |
 | 2025 text-only test | 10 | 10 | 3 + 21 + 16 | 40 |
 
 The new 50-minute revision paper replaces the food-security-only 80-mark revision
@@ -19,8 +19,9 @@ format on the website. It follows the 2025 three-section format and school study
 guide topics. Its salinity question retains the useful process-question structure
 of the old practice pack Q8, with its answer checked against L13.
 
-The 2023 source totals 24. Omitted Q1, Q4, Q7 and Q10 (1 mark each): missing maps
-or graph. Remaining questions keep their original marks and numbers. A 50-minute
+The 2023 source totals 24. Omitted Q4 and Q7 (1 mark each): they need values from a
+missing map or graph. Q1 and Q10 mention a missing map but are answerable from their
+text, so they are kept with a note that the map is not shown. Remaining questions keep their original marks and numbers. A 50-minute
 timer is offered as practice; the source has no time limit.
 
 The 2025 source totals 50. Omitted Q1 (missing map, 1), Q6 (missing graph, 8),

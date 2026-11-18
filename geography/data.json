@@ -19,10 +19,10 @@
       "caution": "The exam guide names nine biomes; the lesson deck uses a different ten-biome grouping. Use the exam guide list for your checklist."
     },
     {
-      "heading": "Latitudes and geographical language",
-      "body": "Australia’s Biomes \nLegend\n\nEquatorial- Brown\nTropical- Dark Green \nSub Tropical- Light Green \nDesert- Orange\nGrassland- Yellow\nTemperate-Lt Blue\n\nFactors Affecting Australia’s Biomes\nAustralia is a land of contrasts: mountains and rivers are small by world’s standards. \nIn the centre, a desert that is only 2nd to the Sahara (excluding Antarctica) \nIn the South- Temperate forests and grasslands dominate \nAustralia also has vast wetlands and coastal ecosystems.\n\nSavanna Continued\nDescribe flat landscapes dominated by grass with few or no trees. \nExist where rainfall is between 250mm and 900mm /year, enough rain for grass, not enough for forests. \nCan be found in temperate, subtropical and tropical regions.\n\nDistribution \nFound mainly in tropical regions close to the equator\n\nSatellite image of Nile\n26° N latitude, 30° E longitude\n(well within the sub-tropics)",
-      "source": "L4 Aus Biomes.pptx.txt; L4(2).pptx.txt; L13 Salinity.pptx.txt",
-      "caution": "Exact latitude bands for all nine biomes are not present in the extracted text. The maps were not available as usable figures; no latitude bands have been invented."
+      "heading": "Where biomes are: latitude, tropics, sub-tropics, temperate",
+      "body": "What the study guide asks\n- Know their latitudes.\n- Using geographic language: latitude, tropics, sub-tropics, temperate describe where the world’s biomes are located.\n\nLines from the world maps (the 9 Food Security textbook maps)\n- Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn (north to south).\n\nWhat your lessons say about where each biome is\n- Tropical forests (palm oil case study): found mainly in tropical regions close to the equator.\n- Grasslands / savanna: can be found in temperate, subtropical and tropical regions.\n- Biodiversity: as you move away from the equator, biodiversity decreases. Tropical Rainforests have the greatest biodiversity in the world.\n- Tundra: very low biodiversity.\n- Boreal forest example: Finland Boreal Forest.\n- Temperate rainforest example: Dandenong Ranges National Park, Victoria (cool temperate rainforest).\n- Seagrass meadows (aquatic): ½ of the known 60 species are found in Australia’s tropical and temperate waters.\n\nAustralia’s biomes\n- Map legend: Equatorial, Tropical, Sub Tropical, Desert, Grassland, Temperate.\n- Tropical northern Australia: wetlands inhabited by First Nation Peoples for longer than 50,000 years.\n- In the centre: a desert that is only 2nd to the Sahara (excluding Antarctica).\n- In the South: temperate forests and grasslands dominate.\n\nUsing latitude in a description\n- Satellite image of the Nile: 26° N latitude, 30° E longitude (well within the sub-tropics).",
+      "source": "Year 9 Exam Study Guide.docx.txt; 9 Food Security PDF.txt; L4(2).pptx.txt; L4 Aus Biomes.pptx.txt; L1 Biomes.pptx.txt; L13 Salinity.pptx.txt",
+      "caution": "Your school files don't give the exact latitude (in degrees) of each biome or of the tropics lines: the ‘Climate Zones’ slide (L2 Climate) and the biome maps are pictures, so their text didn't come through. Check those slides or your class notes for the degree bands; the site doesn't guess them."
     },
     {
       "heading": "Climate, vegetation and animals of biomes",
@@ -110,6 +110,48 @@
       "term": "Biodiversity",
       "definition": "Amount of plants and animals in a biome.",
       "source": "L1 Biomes.pptx.txt"
+    },
+    {
+      "id": "geo-lat-0",
+      "term": "Where are tropical forests (where palm oil is grown) found?",
+      "definition": "Found mainly in tropical regions close to the equator.",
+      "source": "L4(2).pptx.txt"
+    },
+    {
+      "id": "geo-lat-1",
+      "term": "Which regions can grasslands (savanna) be found in?",
+      "definition": "Can be found in temperate, subtropical and tropical regions.",
+      "source": "L4 Aus Biomes.pptx.txt"
+    },
+    {
+      "id": "geo-lat-2",
+      "term": "What happens to biodiversity as you move away from the equator?",
+      "definition": "As you move away from the equator, biodiversity decreases. Tropical Rainforests have the greatest biodiversity in the world.",
+      "source": "L1 Biomes.pptx.txt"
+    },
+    {
+      "id": "geo-lat-3",
+      "term": "Which biomes dominate the south of Australia?",
+      "definition": "In the South- Temperate forests and grasslands dominate.",
+      "source": "L4 Aus Biomes.pptx.txt"
+    },
+    {
+      "id": "geo-lat-4",
+      "term": "What is in the centre of Australia?",
+      "definition": "A desert that is only 2nd to the Sahara (excluding Antarctica).",
+      "source": "L4 Aus Biomes.pptx.txt"
+    },
+    {
+      "id": "geo-lat-5",
+      "term": "Latitude example: the Nile satellite image (26° N, 30° E) is in which zone?",
+      "definition": "Well within the sub-tropics.",
+      "source": "L13 Salinity.pptx.txt"
+    },
+    {
+      "id": "geo-lat-6",
+      "term": "The main lines of latitude on the world maps, north to south",
+      "definition": "Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn.",
+      "source": "9 Food Security PDF.txt"
     },
     {
       "id": "geo-2",
@@ -273,7 +315,7 @@
             },
             {
               "type": "multiple-choice",
-              "prompt": "What does the Q in PQE stand for in the later lesson?",
+              "prompt": "In the L6 lesson, what does the Q in PQE stand for?",
               "options": [
                 "Quality",
                 "Quota",
@@ -281,9 +323,9 @@
                 "Quaternary"
               ],
               "answer": 2,
-              "explanation": "The deck lists Pattern, Quantify, Exception.",
+              "explanation": "L6 lists Pattern, Quantify, Exception (and adds Substantial, as PQES). The earlier L1 Biomes slide writes the Q as Quantity.",
               "marks": 1,
-              "source": "L6(1).pptx.txt"
+              "source": "L6(1).pptx.txt; L1 Biomes.pptx.txt"
             },
             {
               "type": "multiple-choice",
@@ -335,7 +377,7 @@
             {
               "type": "short-answer",
               "prompt": "List three advantages and three disadvantages of palm oil.",
-              "modelAnswer": "Advantages: ingredient in food, cosmetics and biofuel; contributes to the economy; provides jobs.\nDisadvantages: widespread deforestation; loss of biodiversity; human-rights/First Nations community issues.\nSuggested self-mark: 1 for each source-backed point.",
+              "modelAnswer": "Advantages: contributes to the economy; provides jobs (the two pros on the L4(2) Pros slide); useful as an ingredient in food, cosmetics and biofuel (from the L4(2) case-study slide, not listed as a pro).\nDisadvantages: widespread deforestation; loss of biodiversity; human-rights/First Nations community issues.\nSuggested self-mark: 1 for each source-backed point.",
               "marks": 6,
               "source": "L4(2).pptx.txt"
             },
@@ -387,7 +429,7 @@
               "prompt": "Food security: discuss a specific example that threatens food security.",
               "modelAnswer": "Source-backed plan / marking points:\n- Define food security using L1.\n- Example: soil and water salinity in the Murray–Darling Basin (L3 (1), slide 14; booklet p.459).\n- Explain irrigation mismanagement and salt build-up; soil and drainage water become too salty for farming (booklet).\n- Link the crop/soil impact to food production.\n- Management: reduce irrigation, improve efficiency, replant deep-rooted vegetation (L13).\nSuggested practice rubric (author-assigned): definition/example 4; causal process 4; food-production consequences 4; evidence-based response/judgement 4.",
               "marks": 16,
-              "source": "Year 9 Exam Study Guide.docx.txt; L1 (1).pptx.txt; L13 Salinity.pptx.txt; 9 Food Security PDF.txt p.459"
+              "source": "Year 9 Exam Study Guide.docx.txt; L1 (1).pptx.txt; L3 (1).pptx.txt; L13 Salinity.pptx.txt; 9 Food Security PDF.txt p.459"
             },
             {
               "type": "short-answer",
@@ -412,14 +454,27 @@
       "title": "2023 test — text-only edition",
       "durationMinutes": 50,
       "source": "2023 Test.docx.txt",
-      "instructions": "Original test: 24 marks. This text-only edition: 20 marks. Original Q1, Q4, Q7 and Q10 omitted because their maps/graph were unavailable. Original question numbers retained. The source does not state a time limit; 50 minutes is an optional practice timer, not an original instruction.",
+      "instructions": "Original test: 24 marks. This text-only edition: 22 marks. Original Q4 (map values) and Q7 (graph) omitted because their figures are unavailable. Q1 and Q10 refer to a map that is not shown, but can be answered from the question text. Original question numbers retained. The source does not state a time limit; 50 minutes is an optional practice timer, not an original instruction.",
       "sections": [
         {
           "title": "Objective questions",
           "questions": [
             {
               "type": "multiple-choice",
-              "prompt": "Original Q2. Corn or maize is a common food staple and it can also be used as an animal food source and as a biofuel.",
+              "prompt": "Original Q1. Rice is only considered a food staple in the Asian region. True or false?",
+              "stimulus": "The original refers to a world map of staple foods (Figure 1, data from FAO). The map is not available; the statement can be answered without it.",
+              "options": [
+                "True",
+                "False"
+              ],
+              "answer": 1,
+              "explanation": "Rice is also a staple food in parts of Africa, South America and the Middle East.",
+              "marks": 1,
+              "source": "2023 Test.docx.txt"
+            },
+            {
+              "type": "multiple-choice",
+              "prompt": "Original Q2. Corn or maize is a common food staple and it can also be used as an animal food source and as a biofuel. True or false?",
               "options": [
                 "True",
                 "False"
@@ -431,7 +486,7 @@
             },
             {
               "type": "multiple-choice",
-              "prompt": "Original Q3. The Green Revolution in agriculture was primarily to introduce people to a wider variety of green food crops such as green vegetables.",
+              "prompt": "Original Q3. The Green Revolution in agriculture was primarily to introduce people to a wider variety of green food crops such as green vegetables. True or false?",
               "options": [
                 "True",
                 "False"
@@ -443,7 +498,7 @@
             },
             {
               "type": "multiple-choice",
-              "prompt": "Original Q5. Traditional Indigenous Australians’ use of fire to manage their land and food resources was an unsustainable practice.",
+              "prompt": "Original Q5. Traditional Indigenous Australians’ use of fire to manage their land and food resources was an unsustainable practice. True or false?",
               "options": [
                 "True",
                 "False"
@@ -455,7 +510,7 @@
             },
             {
               "type": "multiple-choice",
-              "prompt": "Original Q6. Which is NOT one of the three main ways to increase global food production?",
+              "prompt": "Original Q6. Global food production has to increase to feed the growing world population. There are three main ways to achieve this growth. Which of the following is NOT one of these ways?",
               "options": [
                 "Increasing the area of land being used by converting natural habitats to farmland",
                 "Increased yield per unit area of land",
@@ -479,7 +534,8 @@
               "answer": 1,
               "explanation": "Wheat farming is not an example of intensive farming.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "stimulus": "Intensive farming typically requires a large input of time, money and labour in the preparation and harvesting of food crops, and is usually practised over a fairly small space. Items are often perishable and need to be close to the markets."
             },
             {
               "type": "multiple-choice",
@@ -492,6 +548,21 @@
               ],
               "answer": 3,
               "explanation": "High temperatures, flat land, fertile soil and large amounts of water available.",
+              "marks": 1,
+              "source": "2023 Test.docx.txt"
+            },
+            {
+              "type": "multiple-choice",
+              "prompt": "Original Q10. The type of farming practised in many places in Australia is directly related to the amount of water available. What are the main types of agriculture that can be practised in desert environments?",
+              "stimulus": "The original map, “Types of agriculture in Australia”, is not available; the options can be answered without it.",
+              "options": [
+                "Extensive grazing of cattle for meat and sheep for wool",
+                "Intensive grazing of cattle for meat, and sheep for meat and wool",
+                "Cereal grains and cattle for milk",
+                "There are none; it is desert and therefore there can be no agriculture."
+              ],
+              "answer": 0,
+              "explanation": "The main types of agriculture that can be practised in desert environments are extensive grazing of cattle for meat and sheep for wool.",
               "marks": 1,
               "source": "2023 Test.docx.txt"
             }
@@ -559,7 +630,7 @@
                 "Oceania"
               ],
               "answer": 2,
-              "explanation": "The booklet discusses high-income countries and their greater ability to meet food needs.",
+              "explanation": "The test’s answer sheet gives no multiple-choice key. The booklet (lesson 10.2) describes Australia’s plentiful food supply and relatively high standard of living, which enables most people to afford food.",
               "marks": 1,
               "source": "2025 Test.docx.txt; 9 Food Security PDF.txt lesson 10.2"
             },
@@ -587,7 +658,7 @@
                 "Food security"
               ],
               "answer": 1,
-              "explanation": "Famine.",
+              "explanation": "Booklet lesson 10.8: a famine is an extreme crisis of access to adequate food, resulting in widespread malnutrition and loss of life — the worst form of food insecurity.",
               "marks": 1,
               "source": "2025 Test.docx.txt; 9 Food Security PDF.txt lesson 10.8"
             }
