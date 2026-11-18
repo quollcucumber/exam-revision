@@ -20,18 +20,25 @@ Pinyin is preserved exactly from the supplied markdown, including neutral tones.
 List 1 contains 478 rows (474 unique Chinese entries); list 2 contains 672.
 There is no overlap between the lists. Repeated entries within list 1 are retained in their source categories.
 
-Geography, English and Maths intentionally have no teaching content yet.
+Geography, English, Maths and Chinese Unit 1 now use the supplied school files.
+Each note, flashcard and practice paper names its source. See `SOURCES.md` for
+coverage gaps and adaptations. The old food-security pack has a readable,
+source-checked abridgement at `geography/food-security.html`.
+
 Edit each subject's `data.json` using this illustrative schema (not real teaching content):
 
 ```json
 {
   "notes": [
-    {"heading": "Heading from class", "body": "A paragraph.\n\n- A bullet\n- Another bullet"}
+    {"heading": "Heading from class", "source": "School file.txt", "body": "A paragraph.\n\n- A bullet\n- Another bullet"}
   ],
   "flashcards": [
-    {"id": "stable-card-id", "term": "Term from notes", "definition": "Definition from notes"}
+    {"id": "stable-card-id", "term": "Term from notes", "definition": "Definition from notes", "source": "School file.txt"}
   ],
-  "practiceExam": {
+  "exams": [{
+    "id": "stable-exam-id",
+    "title": "Practice paper",
+    "source": "School file.txt",
     "durationMinutes": 30,
     "sections": [
       {
@@ -54,13 +61,23 @@ Edit each subject's `data.json` using this illustrative schema (not real teachin
         ]
       }
     ]
-  }
+  }]
 }
 ```
 
 `answer` is a zero-based option index. Notes and model answers support plain
 paragraphs separated by newlines and lines starting with `- ` as bullets;
 HTML is treated as text, not executed. Stable flashcard IDs are recommended.
+Use `exams` for multiple selectable papers (`practiceExam` remains supported for
+older datasets). Each exam has a stable `id` for independent saved self-marks.
+A section may set `"choose": 1` to offer alternative questions: only the selected
+question counts toward the total. All alternatives should have equal marks.
+The Geography revision paper uses this for its four choose-one essay prompts.
+`notesOnly: true` hides cards/exams for a notes-only page such as Chinese Unit 1.
+Notes can provide `caution` text and an optional relative `href` for a longer page.
+Questions may include `stimulus` text to replace an available source caption;
+unrecoverable maps/figures are omitted rather than invented.
+
 The optional timer defaults to 30 minutes if omitted. Marks are manually entered
 and clamped to each question's maximum in the self-mark total.
 

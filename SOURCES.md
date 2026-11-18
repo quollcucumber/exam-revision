@@ -1,0 +1,109 @@
+# School-source coverage and limitations
+
+All new teaching material comes from files supplied under `/home/ubuntu/revsrc/text/`.
+JSON is served directly; there is still no build step. Source lines are rendered
+with textContent, not HTML. Practice wording, timing where absent, and self-mark
+allocations/rubrics are authored for revision and explicitly distinguished from
+school answer keys. Facts, quotations and mathematical solutions are source-based.
+
+## Geography papers
+
+| Paper | Questions attempted | Question bank | Section marks | Total |
+|---|---:|---:|---|---:|
+| Study-guide revision | 13 | 16 (four essays, choose one) | 5 + 29 + 16 | 50 |
+| 2023 text-only test | 11 | 11 | 6 + 14 | 20 |
+| 2025 text-only test | 10 | 10 | 3 + 21 + 16 | 40 |
+
+The new 50-minute revision paper replaces the food-security-only 80-mark revision
+format on the website. It follows the 2025 three-section format and school study
+guide topics. Its salinity question retains the useful process-question structure
+of the old practice pack Q8, with its answer checked against L13.
+
+The 2023 source totals 24. Omitted Q1, Q4, Q7 and Q10 (1 mark each): missing maps
+or graph. Remaining questions keep their original marks and numbers. A 50-minute
+timer is offered as practice; the source has no time limit.
+
+The 2025 source totals 50. Omitted Q1 (missing map, 1), Q6 (missing graph, 8),
+and Q3 (1): the extracted test does not provide an explicit MCQ answer key and the
+booklet does not establish all GM answer alternatives. Other MCQ keys use the
+booklet or the 2023 explanation. Q11 substitutes the source caption, “Rice seedlings
+in soil containing salt”, for the missing photo. No graph values are invented.
+
+## Material deliberately not filled in
+
+- The study guide names nine biomes, while L1 names ten using different groupings.
+  Both are labelled; the exam checklist follows the study guide.
+- Full latitude bands and a complete climate/vegetation/animal table for all nine
+  biomes are absent from the extracted lesson text. Only recoverable details are
+  included, not an invented biome table.
+- PQE headings are supplied; a full worked unseen-map answer is not.
+- The palm-oil slide explicitly labels two pros. A third useful benefit is its
+  supplied use in food/cosmetics/biofuel; this distinction is explained.
+- Essay plans are source evidence banks, not invented full model essays. Rice-specific
+  Australian statistics and a complete port social/economic evaluation, employment
+  or GDP totals are not supplied and are not invented.
+- The old Food Security guide was skimmed against the booklet and decks.
+  Its verified opening definition/central argument and five-risk list were kept.
+  The readable abridgement replaces other selected sections with direct school
+  extracts. Unchecked chart numbers, extra glossary definitions, recommendations
+  and case-study analysis from the old pack are not carried over. It is explicitly
+  labelled as abridged, not presented as the unchanged original.
+- Chinese Unit 1 includes the complete supplied vocabulary, sentences, writing
+  prompts and oral questions as notes. No missing pinyin, translations or model
+  responses were invented. Existing word lists remain unchanged.
+- English quotations and commentary remain the student's sheet, not independently
+  verified analysis. Speaker flashcards use only explicit labels. Unlabelled later
+  quotations remain in the notes. The history/smallpox essay plan is clearly
+  labelled a draft argument requiring evidence, not established fact.
+- `year9mathbook.pdf` is actually a saved MyConnect HTML viewer. It contains the
+  textbook contents, not readable worked examples/exercises/answers. Its actual
+  topic checklist is included, but no textbook exercise was invented.
+- Maths practice consists of selected Gauss worked examples with supplied solutions,
+  retaining the numbers and algebra. Diagram-dependent exercises were not reproduced.
+  The selected Gauss coverage is sequences, prime decomposition, expansion and
+  Pythagoras, not a claim to reproduce every chapter.
+
+## Notes inventory
+
+
+### geography
+
+- **Exam checklist — Thursday 26 November, 8:30am** — Year 9 Exam Study Guide.docx.txt
+- **Define a biome** — L1 Biomes.pptx.txt
+- **The nine biomes to learn** — Year 9 Exam Study Guide.docx.txt; L1 Biomes.pptx.txt
+- **Latitudes and geographical language** — L4 Aus Biomes.pptx.txt; L4(2).pptx.txt; L13 Salinity.pptx.txt
+- **Climate, vegetation and animals of biomes** — L1 Biomes.pptx.txt; L4 Aus Biomes.pptx.txt; L2 Climate.pptx.txt
+- **Why grasslands matter to humans** — L4 Aus Biomes.pptx.txt; L11 Intensive v Extensive.pptx.txt
+- **Human damage to grasslands and environmental problems** — L4 Aus Biomes.pptx.txt; L13 Salinity.pptx.txt; L 3 Soil.pptx.txt
+- **Palm oil — advantages and disadvantages** — L4(2).pptx.txt
+- **PQE — Pattern, Quantify, Exception** — L1 Biomes.pptx.txt; L6(1).pptx.txt
+- **Cargo ships, containerisation and globalisation** — Port of Melbourne Revised(1).pptx.txt
+- **Drivers of globalisation and trade** — Lesson #1.pptx.txt; Lesson #2.pptx.txt; Lesson #3.pptx.txt
+- **Tariffs, quotas and subsidies** — L7(2).pptx.txt
+- **Essay option — Should rice farming be allowed in Australia?** — Year 9 Exam Study Guide.docx.txt; L2 Climate.pptx.txt; L13 Salinity.pptx.txt; L3 (1).pptx.txt
+- **Essay option — A specific threat to food security** — Year 9 Exam Study Guide.docx.txt; L1 (1).pptx.txt; L3 (1).pptx.txt; L4 (1).pptx.txt
+- **Essay option — A geographical feature and human interconnections** — Year 9 Exam Study Guide.docx.txt; L1(2).pptx.txt
+- **Essay option — Port of Melbourne and globalisation** — Port of Melbourne Revised(1).pptx.txt
+- **Food security study guide** — Food-Security-Study/01-Study-Guide.md; 9 Food Security PDF.txt
+
+### english
+
+- **Antigone — Your quote sheet** — Antigone Quotes.pdf
+- **Your essay plans — Pepsi advertisement** — english.odt.txt
+- **Your essay plans — History paragraph planning** — english essay.odt.txt
+
+### maths
+
+- **Year 9 textbook — Topic checklist** — year9mathbook.pdf (saved HTML contents)
+- **Gauss — Arithmetic sequences and series** — 2026 Maths Enrichment Gauss Student Notes.pdf pp.1–2
+- **Gauss — Geometric sequences** — 2026 Maths Enrichment Gauss Student Notes.pdf pp.3–4
+- **Gauss — Prime decomposition and counting factors** — 2026 Maths Enrichment Gauss Student Notes.pdf pp.19–21
+- **Gauss — Expanding and factorising** — 2026 Maths Enrichment Gauss Student Notes.pdf pp.34–35
+- **Gauss — Pythagoras’ theorem** — 2026 Maths Enrichment Gauss Student Notes.pdf pp.69–70
+
+### chinese
+
+- **Unit 1 — Vocabulary** — Year 9 Unit 1 Revision Sheets.docx.txt
+- **Unit 1 — Sentences** — Year 9 Unit 1 Revision Sheets.docx.txt
+- **Unit 1 — Writing tasks** — Year 9 Unit 1 Revision Sheets.docx.txt
+- **Unit 1 — Oral questions** — Year 9 Unit 1 Revision Sheets.docx.txt
