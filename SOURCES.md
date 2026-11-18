@@ -58,9 +58,15 @@ in soil containing salt”, for the missing photo. No graph values are invented.
   Practice timing and self-mark rubrics are author-assigned instructions.
 - `year9mathbook.pdf` is actually a saved MyConnect HTML viewer. It contains the
   textbook contents, not readable worked examples/exercises/answers. Its actual
-  topic checklist is included, but no textbook exercise was invented.
-- Maths practice consists of selected Gauss worked examples with supplied solutions,
-  retaining the numbers and algebra. Diagram-dependent exercises were not reproduced.
+  topic checklist is included with chapter headings, wrapped topics joined and
+  non-topic boilerplate removed, but no textbook exercise was invented.
+- Maths Practice paper 1 contains selected Gauss worked examples; their worked
+  solutions also appear in the Notes. Practice paper 2 contains diagram-free Gauss
+  exercises: Chapter 1 Exercises 1, 2, 4, 5, 6; Chapter 3 Exercises 1, 2, 5, 6;
+  Chapter 5 Exercises 1(a–c), 2(a–b); Chapter 8 Exercises 1, 3, 4. Worked solutions
+  come from printed pp.88–89, 97, 104, 122. Marks and time are author-assigned.
+  In Chapter 8 Solution 3, the source's typo 41² = 1641 is corrected to 1681;
+  its obtuse-angle conclusion is unchanged. Diagram-dependent exercises were not reproduced.
   The selected Gauss coverage is sequences, prime decomposition, expansion and
   Pythagoras, not a claim to reproduce every chapter.
 
