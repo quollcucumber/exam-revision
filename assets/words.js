@@ -15,5 +15,5 @@ locked=false;const w=quizWords[asked],panel=el('div',undefined,'panel');panel.ap
 function move(delta){index=(index+delta+deck.length)%deck.length;flipped=false;render()}
 function syncMode(){const next=location.hash.slice(1)||'table';if(next===mode)return;mode=next;score=0;asked=0;quizWords=shuffled(words).slice(0,10);render()}
 document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{location.hash=b.dataset.mode;syncMode()});window.addEventListener('hashchange',syncMode);window.addEventListener('popstate',syncMode);
-document.addEventListener('keydown',e=>{if(mode!=='flashcards'||message||!deck.length||e.target.closest('input,select,textarea,[contenteditable]'))return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();move(e.key==='ArrowLeft'?-1:1)}else if(e.key===' '){e.preventDefault();flipped=!flipped;render()}});
+document.addEventListener('keydown',e=>{if(mode!=='flashcards'||message||!deck.length||e.target.closest('button,a,input,select,textarea,[contenteditable]'))return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();move(e.key==='ArrowLeft'?-1:1)}else if(e.key===' '){e.preventDefault();flipped=!flipped;render()}});
 $('#list').value=read('chinese-list','1')==='2'?'2':'1';$('#list').onchange=load;$('#category').onchange=filtered;$('#direction').onchange=()=>{flipped=false;score=0;asked=0;render()};load();
