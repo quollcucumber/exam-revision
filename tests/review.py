@@ -68,13 +68,13 @@ def check_failed_list(browser, base):
     page.route("**/chinese/list-2.json", lambda route: pending.append(route))
     page.select_option("#list", "2")
     page.get_by_text("Loading vocabulary…", exact=True).wait_for()
-    page.get_by_role("tab", name="Quick quiz", exact=True).click()
+    page.get_by_role("button", name="Quick quiz", exact=True).click()
     assert page.locator(".choices button").count() == 0
     assert page.locator("#study").inner_text() == "Loading vocabulary…"
     pending.pop().abort()
     page.get_by_text("Could not load this word list. Please refresh and try again.", exact=True).wait_for()
     for tab in ("Table", "Flashcards", "Quick quiz"):
-        page.get_by_role("tab", name=tab, exact=True).click()
+        page.get_by_role("button", name=tab, exact=True).click()
         assert "Could not load" in page.locator("#study").inner_text()
         assert page.locator("#study button").count() == 0
     assert page.evaluate("Object.keys(localStorage).filter(k => k.startsWith('chinese-best-2-'))") == []
@@ -86,6 +86,26 @@ def check_failed_list(browser, base):
     page.locator(".choices").wait_for()
     pending.pop().abort()
     assert page.locator(".choices").is_visible()
+    context.close()
+
+
+def check_flashcard_names(browser, base):
+    context = browser.new_context()
+    page = context.new_page()
+    for path in ("/english/", "/chinese/words.html#flashcards"):
+        page.goto(base + path)
+        card = page.locator(".card")
+        card.wait_for()
+        for _ in range(2):
+            visible = " ".join(card.inner_text().split())
+            assert visible
+            page.get_by_role("button", name=visible, exact=True).wait_for()
+            card.click()
+    page.select_option("#direction", "en")
+    card = page.locator(".card")
+    for _ in range(2):
+        page.get_by_role("button", name=" ".join(card.inner_text().split()), exact=True).wait_for()
+        card.click()
     context.close()
 
 
