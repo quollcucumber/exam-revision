@@ -10,6 +10,7 @@ import shutil
 import urllib.request
 
 from playwright.sync_api import sync_playwright
+from review import run_review
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get("REVISION_URL", "http://localhost:8080")
@@ -116,6 +117,10 @@ with sync_playwright() as p:
     assert "Self-mark total: 1 / 22" in page.inner_text("#practice")
     page.get_by_role("button", name="Try again", exact=True).click()
     assert "Self-mark total: 0 / 22" in page.inner_text("#practice")
+    page.evaluate("localStorage.setItem('geography-exam-2023', JSON.stringify({marks: {'0-0': 1, '1-0': 2}}))")
+    page.reload()
+    page.locator("#exam-picker").select_option("1")
+    assert "Self-mark total: 2 / 22" in page.inner_text("#practice")
     page.locator("#exam-picker").select_option("2")
     assert "Self-mark total: 0 / 40" in page.inner_text("#practice")
     assert "Rice seedlings in soil containing salt." in page.inner_text("#practice")
@@ -178,4 +183,5 @@ with sync_playwright() as p:
     print("PASS: 390px screenshots, no horizontal overflow")
     print(SHOTS / "geography-practice-390.png")
     print(SHOTS / "maths-hub-390.png")
+    run_review(browser, BASE)
     browser.close()

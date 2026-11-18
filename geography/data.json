@@ -470,7 +470,8 @@
               "answer": 1,
               "explanation": "Rice is also a staple food in parts of Africa, South America and the Middle East.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "2023-q1"
             },
             {
               "type": "multiple-choice",
@@ -482,7 +483,8 @@
               "answer": 0,
               "explanation": "Corn or maize is a common food staple and it can also be used as an animal food source and as a biofuel.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "0-0"
             },
             {
               "type": "multiple-choice",
@@ -494,7 +496,8 @@
               "answer": 1,
               "explanation": "The Green Revolution relates to rapid increases in agricultural productivity due to advancements in seed technology, the use of fertilisers to increase yields and better farm management.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "0-1"
             },
             {
               "type": "multiple-choice",
@@ -506,7 +509,8 @@
               "answer": 1,
               "explanation": "Traditional Indigenous Australians used fire very carefully to manage their land and food resources. They planned to leave sufficient eggs, seeds and plants to allow for continual growth so that they could return to the same place and hunt and harvest again.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "0-2"
             },
             {
               "type": "multiple-choice",
@@ -520,7 +524,8 @@
               "answer": 2,
               "explanation": "Increasing the variety of crops grown is not one of the ways listed.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "0-3"
             },
             {
               "type": "multiple-choice",
@@ -535,7 +540,8 @@
               "explanation": "Wheat farming is not an example of intensive farming.",
               "marks": 1,
               "source": "2023 Test.docx.txt",
-              "stimulus": "Intensive farming typically requires a large input of time, money and labour in the preparation and harvesting of food crops, and is usually practised over a fairly small space. Items are often perishable and need to be close to the markets."
+              "stimulus": "Intensive farming typically requires a large input of time, money and labour in the preparation and harvesting of food crops, and is usually practised over a fairly small space. Items are often perishable and need to be close to the markets.",
+              "id": "0-4"
             },
             {
               "type": "multiple-choice",
@@ -549,7 +555,8 @@
               "answer": 3,
               "explanation": "High temperatures, flat land, fertile soil and large amounts of water available.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "0-5"
             },
             {
               "type": "multiple-choice",
@@ -564,7 +571,8 @@
               "answer": 0,
               "explanation": "The main types of agriculture that can be practised in desert environments are extensive grazing of cattle for meat and sheep for wool.",
               "marks": 1,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "2023-q10"
             }
           ]
         },
@@ -576,35 +584,40 @@
               "prompt": "Original Q11. Explain the difference between extensive and intensive farming, and provide examples of their types of produce.",
               "modelAnswer": "Extensive farming is generally carried out on very large farms, often covering thousands of hectares. They may graze cattle and/or sheep for meat and wool, or grow crops such as wheat. Intensive farming is carried out on smaller properties, usually closer to the urban centres that they supply. Intensive farming produces items such as milk, fruit and vegetables.",
               "marks": 4,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "1-0"
             },
             {
               "type": "short-answer",
               "prompt": "Original Q12. Greenhouses are capable of creating optimum growing conditions for plants. List three examples of features in the natural environment that can be controlled or changed within a greenhouse environment.",
               "modelAnswer": "Answers may vary: temperature; rainfall/humidity; wind; soils (fertility and composition).",
               "marks": 3,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "1-1"
             },
             {
               "type": "short-answer",
               "prompt": "Original Q13. Describe two ways in which the natural landscape can be modified to suit food production. Give examples where possible.",
               "modelAnswer": "Answers may vary: cutting terraces for rice farming into hillsides; reclaiming land from the sea; ploughing to reduce small hills and create flat land; draining wetlands; applying fertilisers and other chemicals to improve soil structure and fertility.",
               "marks": 2,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "1-2"
             },
             {
               "type": "short-answer",
               "prompt": "Original Q14. Irrigation is the artificial application of water to the land to improve farming. Describe three benefits that irrigation can bring to agriculture.",
               "modelAnswer": "Answers may vary: supplements insufficient/unreliable rainfall; reduces risk/impact of drought; increases plant yields; allows a greater variety of crops; allows intensive cropping in areas previously only suitable for grazing.",
               "marks": 3,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "1-3"
             },
             {
               "type": "short-answer",
               "prompt": "Original Q15. Outline two food-related issues faced by people living in remote communities in Australia.",
               "modelAnswer": "Cost and availability of high-quality foods are issues faced by people living in remote communities. Long distances can cause high transport and storage costs. Access to a regular supply of fresh fruit, vegetables and dairy products can be difficult.",
               "marks": 2,
-              "source": "2023 Test.docx.txt"
+              "source": "2023 Test.docx.txt",
+              "id": "1-4"
             }
           ]
         }
